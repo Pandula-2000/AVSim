@@ -1,0 +1,2094 @@
+2024-04-21 13:43:41,231 - INFO - Node ResidentialZone does not exist
+2024-04-21 13:44:11,325 - INFO - Node EducationZone does not exist
+2024-04-21 13:44:18,277 - INFO - Node School does not exist
+2024-04-21 13:59:23,878 - INFO - Node School does not exist
+2024-04-23 15:40:38,172 - INFO - Node ShoppingMall does not exist
+2024-04-23 19:32:47,531 - INFO - Node RetailShops does not exist
+2024-04-23 21:18:12,774 - INFO - Node RetailShops does not exist
+2024-04-23 21:26:43,535 - INFO - Node RetailShops does not exist
+2024-04-23 21:30:55,587 - INFO - Node _home does not exist
+2024-04-23 21:31:17,237 - INFO - Node _home does not exist
+2024-04-24 10:35:07,396 - INFO - Node GatheringPlace_51 does not exist
+2024-04-24 10:38:28,512 - INFO - Node GatheringPlace does not exist
+2024-04-24 11:36:43,619 - INFO - Node Home_18 does not exist
+2024-04-24 11:36:43,619 - INFO - Node GatheringPlace_42 does not exist
+2024-04-24 11:37:36,689 - INFO - Node Home_18 does not exist
+2024-04-24 11:37:36,689 - INFO - Node Home_18 does not exist
+2024-04-28 23:52:39,407 - INFO - Node Home_18 does not exist
+2024-04-28 23:52:56,536 - INFO - Node Home_18 does not exist
+2024-04-28 23:52:56,539 - INFO - Node Home_18 does not exist
+2024-04-28 23:52:56,547 - INFO - Node Home_18 does not exist
+2024-04-28 23:52:56,569 - INFO - Node Home_18 does not exist
+2024-04-28 23:53:05,644 - INFO - Node Home_18 does not exist
+2024-04-28 23:53:05,658 - INFO - Node Home_18 does not exist
+2024-04-28 23:53:05,666 - INFO - Node _home does not exist
+2024-05-09 15:44:41,903 - WARNING - A connection with no parent: EducationZone_2
+2024-05-10 14:35:14,483 - WARNING - A connection with no parent: EducationZone_2
+2024-05-10 14:35:33,900 - WARNING - A connection with no parent: EducationZone_2
+2024-05-10 14:35:48,166 - WARNING - A connection with no parent: EducationZone_2
+2024-05-10 14:35:56,951 - WARNING - A connection with no parent: EducationZone_2
+2024-05-10 14:36:03,083 - WARNING - A connection with no parent: EducationZone_2
+2024-05-10 14:39:05,225 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 18:56:26,056 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 18:56:35,837 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:02:03,166 - WARNING - A connection with no parent: Gampola
+2024-05-11 19:02:03,166 - WARNING - A connection with no parent: KandyCity
+2024-05-11 19:02:03,167 - WARNING - A connection with no parent: ResidentialZone_1
+2024-05-11 19:02:03,167 - WARNING - A connection with no parent: ResidentialZone_2
+2024-05-11 19:02:03,168 - WARNING - A connection with no parent: ResidentialZone_4
+2024-05-11 19:02:03,168 - WARNING - A connection with no parent: ResidentialZone_5
+2024-05-11 19:02:03,169 - WARNING - A connection with no parent: ResidentialZone_6
+2024-05-11 19:02:03,170 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-05-11 19:02:03,171 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-05-11 19:02:03,171 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-05-11 19:02:03,172 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-05-11 19:02:03,172 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-05-11 19:02:03,173 - WARNING - A connection with no parent: EducationZone_1
+2024-05-11 19:02:03,173 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:02:03,174 - WARNING - A connection with no parent: EducationZone_3
+2024-05-11 19:02:03,174 - WARNING - A connection with no parent: MedicalZone_1
+2024-05-11 19:02:03,175 - WARNING - A connection with no parent: MedicalZone_2
+2024-05-11 19:02:03,175 - WARNING - A connection with no parent: MedicalZone_3
+2024-05-11 19:02:03,179 - INFO - Node Home_18 does not exist
+2024-05-11 19:02:03,184 - INFO - Node Hospital does not exist
+2024-05-11 19:03:18,921 - WARNING - A connection with no parent: Gampola
+2024-05-11 19:03:18,922 - WARNING - A connection with no parent: KandyCity
+2024-05-11 19:03:18,922 - WARNING - A connection with no parent: ResidentialZone_1
+2024-05-11 19:03:18,922 - WARNING - A connection with no parent: ResidentialZone_2
+2024-05-11 19:03:18,923 - WARNING - A connection with no parent: ResidentialZone_4
+2024-05-11 19:03:18,924 - WARNING - A connection with no parent: ResidentialZone_5
+2024-05-11 19:03:18,924 - WARNING - A connection with no parent: ResidentialZone_6
+2024-05-11 19:03:18,925 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-05-11 19:03:18,926 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-05-11 19:03:18,927 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-05-11 19:03:18,928 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-05-11 19:03:18,928 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-05-11 19:03:18,928 - WARNING - A connection with no parent: EducationZone_1
+2024-05-11 19:03:18,929 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:03:18,929 - WARNING - A connection with no parent: EducationZone_3
+2024-05-11 19:03:18,930 - WARNING - A connection with no parent: MedicalZone_1
+2024-05-11 19:03:18,931 - WARNING - A connection with no parent: MedicalZone_2
+2024-05-11 19:03:18,931 - WARNING - A connection with no parent: MedicalZone_3
+2024-05-11 19:03:18,944 - INFO - Node Home_18 does not exist
+2024-05-11 19:03:18,954 - INFO - Node Home_18 does not exist
+2024-05-11 19:03:18,966 - INFO - Node Hospital does not exist
+2024-05-11 19:07:11,697 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:07:16,118 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:07:20,406 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:07:23,914 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:07:27,466 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:07:31,135 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:07:34,562 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:08:14,392 - WARNING - A connection with no parent: Gampola
+2024-05-11 19:08:14,393 - WARNING - A connection with no parent: KandyCity
+2024-05-11 19:08:14,393 - WARNING - A connection with no parent: ResidentialZone_1
+2024-05-11 19:08:14,393 - WARNING - A connection with no parent: ResidentialZone_2
+2024-05-11 19:08:14,394 - WARNING - A connection with no parent: ResidentialZone_4
+2024-05-11 19:08:14,395 - WARNING - A connection with no parent: ResidentialZone_5
+2024-05-11 19:08:14,395 - WARNING - A connection with no parent: ResidentialZone_6
+2024-05-11 19:08:14,396 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-05-11 19:08:14,397 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-05-11 19:08:14,398 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-05-11 19:08:14,398 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-05-11 19:08:14,398 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-05-11 19:08:14,399 - WARNING - A connection with no parent: EducationZone_1
+2024-05-11 19:08:14,399 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:08:14,400 - WARNING - A connection with no parent: EducationZone_3
+2024-05-11 19:08:14,400 - WARNING - A connection with no parent: MedicalZone_1
+2024-05-11 19:08:14,401 - WARNING - A connection with no parent: MedicalZone_2
+2024-05-11 19:08:14,401 - WARNING - A connection with no parent: MedicalZone_3
+2024-05-11 19:08:15,540 - INFO - Node Home_18 does not exist
+2024-05-11 19:08:15,548 - INFO - Node Home_18 does not exist
+2024-05-11 19:08:15,551 - INFO - Node Hospital does not exist
+2024-05-11 19:44:30,177 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:44:55,703 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:45:05,389 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:45:15,058 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:45:43,168 - WARNING - A connection with no parent: EducationZone_2
+2024-05-11 19:50:49,269 - WARNING - A connection with no parent: EducationZone_2
+2024-05-12 11:16:29,278 - WARNING - A connection with no parent: EducationZone_2
+2024-05-14 10:50:38,005 - WARNING - A connection with no parent: EducationZone_2
+2024-05-14 10:51:25,607 - WARNING - A connection with no parent: EducationZone_2
+2024-05-14 10:53:10,103 - WARNING - A connection with no parent: EducationZone_2
+2024-05-14 11:19:33,248 - WARNING - A connection with no parent: EducationZone_2
+2024-05-14 11:20:09,258 - WARNING - A connection with no parent: EducationZone_2
+2024-05-14 11:20:36,544 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:08:08,922 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:09:38,323 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:10:54,527 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:15:53,231 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:15:58,005 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:22:09,584 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:24:06,092 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:24:42,056 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:25:02,084 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:25:20,054 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:26:02,269 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:26:08,425 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:26:16,060 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:27:15,093 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:36:35,099 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:37:09,954 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:37:25,741 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:57:58,572 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:58:09,956 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 10:58:19,771 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 11:00:24,564 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 11:00:44,244 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 17:33:49,389 - WARNING - A connection with no parent: EducationZone_2
+2024-05-15 17:34:34,007 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 01:56:45,622 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:09:55,501 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:10:10,435 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:10:30,228 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:18:57,024 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:19:21,869 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:19:29,851 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:20:27,421 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:30:00,312 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:32:28,451 - WARNING - A connection with no parent: EducationZone_2
+2024-05-16 02:32:58,154 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:39:38,327 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:39:51,774 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:40:51,763 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:41:28,180 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:41:54,924 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:43:51,578 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:45:45,815 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:46:51,654 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:47:59,717 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:48:50,241 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 08:57:36,359 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 09:13:15,486 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 11:15:20,271 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 11:23:59,484 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 11:28:35,295 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 11:29:44,837 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 11:39:47,841 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 11:47:37,844 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 11:49:26,032 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 12:41:34,992 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 12:41:51,099 - INFO - Node _home does not exist
+2024-05-18 13:49:59,071 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 13:50:16,341 - INFO - Node None does not exist
+2024-05-18 13:50:16,350 - INFO - Node None does not exist
+2024-05-18 13:50:16,351 - INFO - Node None does not exist
+2024-05-18 13:50:16,359 - INFO - Node None does not exist
+2024-05-18 13:50:16,375 - INFO - Node None does not exist
+2024-05-18 13:50:16,425 - INFO - Node None does not exist
+2024-05-18 13:50:16,426 - INFO - Node None does not exist
+2024-05-18 13:50:16,437 - INFO - Node None does not exist
+2024-05-18 13:50:16,447 - INFO - Node None does not exist
+2024-05-18 13:50:16,449 - INFO - Node None does not exist
+2024-05-18 13:50:16,451 - INFO - Node None does not exist
+2024-05-18 13:50:16,453 - INFO - Node None does not exist
+2024-05-18 13:50:16,455 - INFO - Node None does not exist
+2024-05-18 13:50:16,456 - INFO - Node None does not exist
+2024-05-18 13:50:16,459 - INFO - Node None does not exist
+2024-05-18 13:50:16,461 - INFO - Node None does not exist
+2024-05-18 13:50:16,474 - INFO - Node None does not exist
+2024-05-18 13:50:16,501 - INFO - Node None does not exist
+2024-05-18 13:50:16,766 - INFO - Node None does not exist
+2024-05-18 13:50:16,778 - INFO - Node None does not exist
+2024-05-18 13:50:16,786 - INFO - Node None does not exist
+2024-05-18 13:50:16,788 - INFO - Node None does not exist
+2024-05-18 13:50:16,790 - INFO - Node None does not exist
+2024-05-18 13:50:16,791 - INFO - Node None does not exist
+2024-05-18 13:50:16,793 - INFO - Node None does not exist
+2024-05-18 13:50:16,795 - INFO - Node None does not exist
+2024-05-18 13:50:16,802 - INFO - Node None does not exist
+2024-05-18 13:50:16,816 - INFO - Node None does not exist
+2024-05-18 13:50:16,826 - INFO - Node None does not exist
+2024-05-18 13:50:16,835 - INFO - Node None does not exist
+2024-05-18 13:50:16,837 - INFO - Node None does not exist
+2024-05-18 13:50:16,838 - INFO - Node None does not exist
+2024-05-18 13:50:16,841 - INFO - Node None does not exist
+2024-05-18 13:50:16,853 - INFO - Node None does not exist
+2024-05-18 13:50:16,860 - INFO - Node None does not exist
+2024-05-18 13:50:16,863 - INFO - Node None does not exist
+2024-05-18 13:50:16,865 - INFO - Node None does not exist
+2024-05-18 13:50:16,867 - INFO - Node None does not exist
+2024-05-18 13:50:16,869 - INFO - Node None does not exist
+2024-05-18 13:50:16,871 - INFO - Node None does not exist
+2024-05-18 13:50:16,873 - INFO - Node None does not exist
+2024-05-18 13:50:16,875 - INFO - Node None does not exist
+2024-05-18 13:50:16,881 - INFO - Node None does not exist
+2024-05-18 13:50:16,932 - INFO - Node None does not exist
+2024-05-18 13:50:16,936 - INFO - Node None does not exist
+2024-05-18 13:50:16,943 - INFO - Node None does not exist
+2024-05-18 13:50:16,947 - INFO - Node None does not exist
+2024-05-18 13:50:16,952 - INFO - Node None does not exist
+2024-05-18 13:50:16,954 - INFO - Node None does not exist
+2024-05-18 13:50:16,956 - INFO - Node None does not exist
+2024-05-18 13:50:16,957 - INFO - Node None does not exist
+2024-05-18 13:50:16,958 - INFO - Node None does not exist
+2024-05-18 13:50:16,960 - INFO - Node None does not exist
+2024-05-18 13:50:16,961 - INFO - Node None does not exist
+2024-05-18 13:50:16,963 - INFO - Node None does not exist
+2024-05-18 13:50:16,976 - INFO - Node None does not exist
+2024-05-18 13:50:17,147 - INFO - Node None does not exist
+2024-05-18 13:50:17,155 - INFO - Node None does not exist
+2024-05-18 13:50:17,185 - INFO - Node None does not exist
+2024-05-18 13:50:17,556 - INFO - Node None does not exist
+2024-05-18 13:50:17,621 - INFO - Node None does not exist
+2024-05-18 13:50:17,627 - INFO - Node None does not exist
+2024-05-18 13:50:17,636 - INFO - Node None does not exist
+2024-05-18 13:50:17,649 - INFO - Node None does not exist
+2024-05-18 13:50:17,654 - INFO - Node None does not exist
+2024-05-18 13:50:17,669 - INFO - Node None does not exist
+2024-05-18 13:50:17,933 - INFO - Node None does not exist
+2024-05-18 13:50:17,935 - INFO - Node None does not exist
+2024-05-18 13:50:17,961 - INFO - Node None does not exist
+2024-05-18 13:50:18,074 - INFO - Node None does not exist
+2024-05-18 13:50:18,090 - INFO - Node None does not exist
+2024-05-18 13:50:18,100 - INFO - Node None does not exist
+2024-05-18 13:50:18,111 - INFO - Node None does not exist
+2024-05-18 13:50:18,126 - INFO - Node None does not exist
+2024-05-18 13:50:18,139 - INFO - Node None does not exist
+2024-05-18 13:50:18,142 - INFO - Node None does not exist
+2024-05-18 13:50:18,152 - INFO - Node None does not exist
+2024-05-18 13:50:18,156 - INFO - Node None does not exist
+2024-05-18 13:50:18,158 - INFO - Node None does not exist
+2024-05-18 13:50:18,165 - INFO - Node None does not exist
+2024-05-18 13:50:18,168 - INFO - Node None does not exist
+2024-05-18 13:50:18,170 - INFO - Node None does not exist
+2024-05-18 13:50:18,172 - INFO - Node None does not exist
+2024-05-18 13:50:18,173 - INFO - Node None does not exist
+2024-05-18 13:50:18,180 - INFO - Node None does not exist
+2024-05-18 13:50:18,188 - INFO - Node None does not exist
+2024-05-18 13:50:18,199 - INFO - Node None does not exist
+2024-05-18 13:50:18,206 - INFO - Node None does not exist
+2024-05-18 13:50:18,215 - INFO - Node None does not exist
+2024-05-18 13:50:18,222 - INFO - Node None does not exist
+2024-05-18 13:50:18,223 - INFO - Node None does not exist
+2024-05-18 13:50:18,225 - INFO - Node None does not exist
+2024-05-18 13:50:18,226 - INFO - Node None does not exist
+2024-05-18 13:50:18,227 - INFO - Node None does not exist
+2024-05-18 13:50:18,229 - INFO - Node None does not exist
+2024-05-18 13:50:18,230 - INFO - Node None does not exist
+2024-05-18 13:50:18,233 - INFO - Node None does not exist
+2024-05-18 13:50:18,240 - INFO - Node None does not exist
+2024-05-18 13:50:18,243 - INFO - Node None does not exist
+2024-05-18 13:50:18,245 - INFO - Node None does not exist
+2024-05-18 13:50:18,259 - INFO - Node None does not exist
+2024-05-18 13:50:18,263 - INFO - Node None does not exist
+2024-05-18 13:50:18,275 - INFO - Node None does not exist
+2024-05-18 13:50:18,281 - INFO - Node None does not exist
+2024-05-18 13:50:18,284 - INFO - Node None does not exist
+2024-05-18 13:50:18,286 - INFO - Node None does not exist
+2024-05-18 13:50:18,303 - INFO - Node None does not exist
+2024-05-18 13:50:18,382 - INFO - Node None does not exist
+2024-05-18 13:50:18,475 - INFO - Node None does not exist
+2024-05-18 13:50:18,477 - INFO - Node None does not exist
+2024-05-18 13:50:18,481 - INFO - Node None does not exist
+2024-05-18 13:50:18,483 - INFO - Node None does not exist
+2024-05-18 13:50:18,485 - INFO - Node None does not exist
+2024-05-18 13:50:18,492 - INFO - Node None does not exist
+2024-05-18 13:50:18,501 - INFO - Node None does not exist
+2024-05-18 13:50:18,508 - INFO - Node None does not exist
+2024-05-18 13:50:18,509 - INFO - Node None does not exist
+2024-05-18 13:50:18,511 - INFO - Node None does not exist
+2024-05-18 13:50:18,512 - INFO - Node None does not exist
+2024-05-18 13:50:18,520 - INFO - Node None does not exist
+2024-05-18 13:50:18,530 - INFO - Node None does not exist
+2024-05-18 13:50:18,580 - INFO - Node None does not exist
+2024-05-18 13:50:18,584 - INFO - Node None does not exist
+2024-05-18 13:50:18,594 - INFO - Node None does not exist
+2024-05-18 13:50:18,601 - INFO - Node None does not exist
+2024-05-18 13:50:18,603 - INFO - Node None does not exist
+2024-05-18 13:50:18,627 - INFO - Node None does not exist
+2024-05-18 13:50:18,636 - INFO - Node None does not exist
+2024-05-18 13:50:18,637 - INFO - Node None does not exist
+2024-05-18 13:50:18,646 - INFO - Node None does not exist
+2024-05-18 13:50:18,649 - INFO - Node None does not exist
+2024-05-18 13:50:18,651 - INFO - Node None does not exist
+2024-05-18 13:50:18,652 - INFO - Node None does not exist
+2024-05-18 13:50:18,654 - INFO - Node None does not exist
+2024-05-18 13:50:18,661 - INFO - Node None does not exist
+2024-05-18 13:50:18,673 - INFO - Node None does not exist
+2024-05-18 13:50:18,845 - INFO - Node None does not exist
+2024-05-18 13:50:18,849 - INFO - Node None does not exist
+2024-05-18 13:50:18,863 - INFO - Node None does not exist
+2024-05-18 13:50:18,875 - INFO - Node None does not exist
+2024-05-18 13:50:19,304 - INFO - Node None does not exist
+2024-05-18 13:50:19,308 - INFO - Node None does not exist
+2024-05-18 13:50:19,309 - INFO - Node None does not exist
+2024-05-18 13:50:19,314 - INFO - Node None does not exist
+2024-05-18 13:50:19,318 - INFO - Node None does not exist
+2024-05-18 13:50:19,320 - INFO - Node None does not exist
+2024-05-18 13:50:19,322 - INFO - Node None does not exist
+2024-05-18 13:50:19,323 - INFO - Node None does not exist
+2024-05-18 13:50:19,332 - INFO - Node None does not exist
+2024-05-18 13:50:19,338 - INFO - Node None does not exist
+2024-05-18 13:50:19,340 - INFO - Node None does not exist
+2024-05-18 13:50:19,342 - INFO - Node None does not exist
+2024-05-18 13:50:19,430 - INFO - Node None does not exist
+2024-05-18 13:50:19,547 - INFO - Node None does not exist
+2024-05-18 13:50:19,550 - INFO - Node None does not exist
+2024-05-18 13:50:19,556 - INFO - Node None does not exist
+2024-05-18 13:50:19,560 - INFO - Node None does not exist
+2024-05-18 13:50:19,561 - INFO - Node None does not exist
+2024-05-18 13:50:19,564 - INFO - Node None does not exist
+2024-05-18 13:50:19,566 - INFO - Node None does not exist
+2024-05-18 13:50:19,571 - INFO - Node None does not exist
+2024-05-18 13:50:19,574 - INFO - Node None does not exist
+2024-05-18 13:50:19,587 - INFO - Node None does not exist
+2024-05-18 13:50:19,593 - INFO - Node None does not exist
+2024-05-18 13:50:19,596 - INFO - Node None does not exist
+2024-05-18 13:50:19,606 - INFO - Node None does not exist
+2024-05-18 13:50:19,658 - INFO - Node None does not exist
+2024-05-18 13:50:19,661 - INFO - Node None does not exist
+2024-05-18 13:50:19,663 - INFO - Node None does not exist
+2024-05-18 13:50:19,665 - INFO - Node None does not exist
+2024-05-18 13:50:19,667 - INFO - Node None does not exist
+2024-05-18 13:50:19,668 - INFO - Node None does not exist
+2024-05-18 13:50:19,671 - INFO - Node None does not exist
+2024-05-18 13:50:19,674 - INFO - Node None does not exist
+2024-05-18 13:50:19,676 - INFO - Node None does not exist
+2024-05-18 13:50:19,681 - INFO - Node None does not exist
+2024-05-18 13:50:19,684 - INFO - Node None does not exist
+2024-05-18 13:50:19,685 - INFO - Node None does not exist
+2024-05-18 13:50:19,687 - INFO - Node None does not exist
+2024-05-18 13:50:19,691 - INFO - Node None does not exist
+2024-05-18 13:50:19,699 - INFO - Node None does not exist
+2024-05-18 13:50:19,727 - INFO - Node None does not exist
+2024-05-18 13:50:19,800 - INFO - Node None does not exist
+2024-05-18 13:50:19,804 - INFO - Node None does not exist
+2024-05-18 13:50:19,808 - INFO - Node None does not exist
+2024-05-18 13:50:19,813 - INFO - Node None does not exist
+2024-05-18 13:50:19,816 - INFO - Node None does not exist
+2024-05-18 13:50:19,818 - INFO - Node None does not exist
+2024-05-18 13:50:19,829 - INFO - Node None does not exist
+2024-05-18 13:50:19,836 - INFO - Node None does not exist
+2024-05-18 13:50:19,840 - INFO - Node None does not exist
+2024-05-18 13:50:19,843 - INFO - Node None does not exist
+2024-05-18 13:50:19,844 - INFO - Node None does not exist
+2024-05-18 13:50:19,846 - INFO - Node None does not exist
+2024-05-18 13:50:19,847 - INFO - Node None does not exist
+2024-05-18 13:50:19,851 - INFO - Node None does not exist
+2024-05-18 13:50:19,855 - INFO - Node None does not exist
+2024-05-18 13:50:19,858 - INFO - Node None does not exist
+2024-05-18 13:50:19,905 - INFO - Node None does not exist
+2024-05-18 13:50:19,908 - INFO - Node None does not exist
+2024-05-18 13:50:19,910 - INFO - Node None does not exist
+2024-05-18 13:50:19,912 - INFO - Node None does not exist
+2024-05-18 13:50:19,918 - INFO - Node None does not exist
+2024-05-18 13:50:19,921 - INFO - Node None does not exist
+2024-05-18 13:50:19,926 - INFO - Node None does not exist
+2024-05-18 13:50:19,937 - INFO - Node None does not exist
+2024-05-18 13:50:19,943 - INFO - Node None does not exist
+2024-05-18 13:50:19,945 - INFO - Node None does not exist
+2024-05-18 13:50:19,947 - INFO - Node None does not exist
+2024-05-18 13:50:19,949 - INFO - Node None does not exist
+2024-05-18 13:50:19,952 - INFO - Node None does not exist
+2024-05-18 13:50:19,955 - INFO - Node None does not exist
+2024-05-18 13:50:19,961 - INFO - Node None does not exist
+2024-05-18 13:50:19,963 - INFO - Node None does not exist
+2024-05-18 13:50:19,965 - INFO - Node None does not exist
+2024-05-18 13:50:19,968 - INFO - Node None does not exist
+2024-05-18 13:50:19,975 - INFO - Node None does not exist
+2024-05-18 13:50:19,982 - INFO - Node None does not exist
+2024-05-18 13:50:19,985 - INFO - Node None does not exist
+2024-05-18 13:50:19,987 - INFO - Node None does not exist
+2024-05-18 13:50:19,990 - INFO - Node None does not exist
+2024-05-18 13:50:19,994 - INFO - Node None does not exist
+2024-05-18 13:50:19,997 - INFO - Node None does not exist
+2024-05-18 13:50:19,999 - INFO - Node None does not exist
+2024-05-18 13:50:20,002 - INFO - Node None does not exist
+2024-05-18 13:50:20,005 - INFO - Node None does not exist
+2024-05-18 13:50:20,011 - INFO - Node None does not exist
+2024-05-18 13:50:20,013 - INFO - Node None does not exist
+2024-05-18 13:50:20,016 - INFO - Node None does not exist
+2024-05-18 13:50:20,018 - INFO - Node None does not exist
+2024-05-18 13:50:20,020 - INFO - Node None does not exist
+2024-05-18 13:50:20,022 - INFO - Node None does not exist
+2024-05-18 13:50:20,024 - INFO - Node None does not exist
+2024-05-18 13:50:20,029 - INFO - Node None does not exist
+2024-05-18 13:50:20,031 - INFO - Node None does not exist
+2024-05-18 13:50:20,036 - INFO - Node None does not exist
+2024-05-18 13:50:20,091 - INFO - Node None does not exist
+2024-05-18 13:50:20,094 - INFO - Node None does not exist
+2024-05-18 13:50:20,096 - INFO - Node None does not exist
+2024-05-18 13:50:20,098 - INFO - Node None does not exist
+2024-05-18 13:50:20,101 - INFO - Node None does not exist
+2024-05-18 13:50:20,103 - INFO - Node None does not exist
+2024-05-18 13:50:20,106 - INFO - Node None does not exist
+2024-05-18 13:50:20,110 - INFO - Node None does not exist
+2024-05-18 13:50:20,112 - INFO - Node None does not exist
+2024-05-18 13:50:20,117 - INFO - Node None does not exist
+2024-05-18 13:50:20,123 - INFO - Node None does not exist
+2024-05-18 13:50:20,126 - INFO - Node None does not exist
+2024-05-18 13:50:20,131 - INFO - Node None does not exist
+2024-05-18 13:50:20,136 - INFO - Node None does not exist
+2024-05-18 13:50:20,138 - INFO - Node None does not exist
+2024-05-18 13:50:20,143 - INFO - Node None does not exist
+2024-05-18 13:50:20,206 - INFO - Node None does not exist
+2024-05-18 13:50:20,210 - INFO - Node None does not exist
+2024-05-18 13:50:20,215 - INFO - Node None does not exist
+2024-05-18 13:50:20,220 - INFO - Node None does not exist
+2024-05-18 13:50:20,223 - INFO - Node None does not exist
+2024-05-18 13:50:20,229 - INFO - Node None does not exist
+2024-05-18 13:50:20,241 - INFO - Node None does not exist
+2024-05-18 13:50:20,259 - INFO - Node None does not exist
+2024-05-18 13:50:20,262 - INFO - Node None does not exist
+2024-05-18 13:50:20,265 - INFO - Node None does not exist
+2024-05-18 13:50:20,267 - INFO - Node None does not exist
+2024-05-18 13:50:20,268 - INFO - Node None does not exist
+2024-05-18 13:50:20,270 - INFO - Node None does not exist
+2024-05-18 13:50:20,276 - INFO - Node None does not exist
+2024-05-18 13:50:20,280 - INFO - Node None does not exist
+2024-05-18 13:50:20,282 - INFO - Node None does not exist
+2024-05-18 13:50:20,283 - INFO - Node None does not exist
+2024-05-18 13:50:20,294 - INFO - Node None does not exist
+2024-05-18 13:50:20,304 - INFO - Node None does not exist
+2024-05-18 13:50:20,307 - INFO - Node None does not exist
+2024-05-18 13:50:20,309 - INFO - Node None does not exist
+2024-05-18 13:50:20,311 - INFO - Node None does not exist
+2024-05-18 13:50:20,312 - INFO - Node None does not exist
+2024-05-18 13:50:20,314 - INFO - Node None does not exist
+2024-05-18 13:50:20,325 - INFO - Node None does not exist
+2024-05-18 13:50:20,337 - INFO - Node None does not exist
+2024-05-18 13:50:20,340 - INFO - Node None does not exist
+2024-05-18 13:50:20,342 - INFO - Node None does not exist
+2024-05-18 13:50:20,343 - INFO - Node None does not exist
+2024-05-18 13:50:20,345 - INFO - Node None does not exist
+2024-05-18 13:50:20,347 - INFO - Node None does not exist
+2024-05-18 13:50:20,348 - INFO - Node None does not exist
+2024-05-18 13:50:20,352 - INFO - Node None does not exist
+2024-05-18 13:50:20,365 - INFO - Node None does not exist
+2024-05-18 13:50:20,456 - INFO - Node None does not exist
+2024-05-18 13:50:20,469 - INFO - Node None does not exist
+2024-05-18 13:50:20,473 - INFO - Node None does not exist
+2024-05-18 13:50:20,481 - INFO - Node None does not exist
+2024-05-18 13:50:20,485 - INFO - Node None does not exist
+2024-05-18 13:50:20,487 - INFO - Node None does not exist
+2024-05-18 13:50:20,488 - INFO - Node None does not exist
+2024-05-18 13:50:20,490 - INFO - Node None does not exist
+2024-05-18 13:50:20,493 - INFO - Node None does not exist
+2024-05-18 13:50:20,495 - INFO - Node None does not exist
+2024-05-18 13:50:20,545 - INFO - Node None does not exist
+2024-05-18 13:50:20,550 - INFO - Node None does not exist
+2024-05-18 13:50:20,552 - INFO - Node None does not exist
+2024-05-18 13:50:20,554 - INFO - Node None does not exist
+2024-05-18 13:50:20,555 - INFO - Node None does not exist
+2024-05-18 13:50:20,558 - INFO - Node None does not exist
+2024-05-18 13:50:20,563 - INFO - Node None does not exist
+2024-05-18 13:50:20,570 - INFO - Node None does not exist
+2024-05-18 13:50:20,577 - INFO - Node None does not exist
+2024-05-18 13:50:20,580 - INFO - Node None does not exist
+2024-05-18 13:50:20,584 - INFO - Node None does not exist
+2024-05-18 13:50:20,587 - INFO - Node None does not exist
+2024-05-18 13:50:20,591 - INFO - Node None does not exist
+2024-05-18 13:50:20,594 - INFO - Node None does not exist
+2024-05-18 13:50:20,716 - INFO - Node None does not exist
+2024-05-18 13:50:20,722 - INFO - Node None does not exist
+2024-05-18 13:50:20,724 - INFO - Node None does not exist
+2024-05-18 13:50:20,728 - INFO - Node None does not exist
+2024-05-18 13:50:20,732 - INFO - Node None does not exist
+2024-05-18 13:50:20,799 - INFO - Node None does not exist
+2024-05-18 13:50:20,806 - INFO - Node None does not exist
+2024-05-18 13:50:20,809 - INFO - Node None does not exist
+2024-05-18 13:50:20,814 - INFO - Node None does not exist
+2024-05-18 13:50:20,817 - INFO - Node None does not exist
+2024-05-18 13:50:20,820 - INFO - Node None does not exist
+2024-05-18 13:50:20,825 - INFO - Node None does not exist
+2024-05-18 13:50:20,829 - INFO - Node None does not exist
+2024-05-18 13:50:20,831 - INFO - Node None does not exist
+2024-05-18 13:50:20,834 - INFO - Node None does not exist
+2024-05-18 13:50:20,836 - INFO - Node None does not exist
+2024-05-18 13:50:20,847 - INFO - Node None does not exist
+2024-05-18 13:50:20,854 - INFO - Node None does not exist
+2024-05-18 13:50:20,856 - INFO - Node None does not exist
+2024-05-18 13:50:20,857 - INFO - Node None does not exist
+2024-05-18 13:50:20,861 - INFO - Node None does not exist
+2024-05-18 13:50:20,868 - INFO - Node None does not exist
+2024-05-18 13:50:20,873 - INFO - Node None does not exist
+2024-05-18 13:50:20,876 - INFO - Node None does not exist
+2024-05-18 13:50:20,933 - INFO - Node None does not exist
+2024-05-18 13:50:20,937 - INFO - Node None does not exist
+2024-05-18 13:50:20,939 - INFO - Node None does not exist
+2024-05-18 13:50:20,942 - INFO - Node None does not exist
+2024-05-18 13:50:20,947 - INFO - Node None does not exist
+2024-05-18 13:50:20,950 - INFO - Node None does not exist
+2024-05-18 13:50:20,952 - INFO - Node None does not exist
+2024-05-18 13:50:20,955 - INFO - Node None does not exist
+2024-05-18 13:50:20,959 - INFO - Node None does not exist
+2024-05-18 13:50:20,962 - INFO - Node None does not exist
+2024-05-18 13:50:20,964 - INFO - Node None does not exist
+2024-05-18 13:50:20,965 - INFO - Node None does not exist
+2024-05-18 13:50:20,967 - INFO - Node None does not exist
+2024-05-18 13:50:20,970 - INFO - Node None does not exist
+2024-05-18 13:50:20,972 - INFO - Node None does not exist
+2024-05-18 13:50:20,974 - INFO - Node None does not exist
+2024-05-18 13:50:20,977 - INFO - Node None does not exist
+2024-05-18 13:50:20,979 - INFO - Node None does not exist
+2024-05-18 13:50:20,983 - INFO - Node None does not exist
+2024-05-18 13:50:20,985 - INFO - Node None does not exist
+2024-05-18 13:50:20,992 - INFO - Node None does not exist
+2024-05-18 13:50:20,993 - INFO - Node None does not exist
+2024-05-18 13:50:20,995 - INFO - Node None does not exist
+2024-05-18 13:50:20,999 - INFO - Node None does not exist
+2024-05-18 13:50:21,001 - INFO - Node None does not exist
+2024-05-18 13:50:21,005 - INFO - Node None does not exist
+2024-05-18 13:50:21,008 - INFO - Node None does not exist
+2024-05-18 13:50:21,014 - INFO - Node None does not exist
+2024-05-18 13:50:21,050 - INFO - Node None does not exist
+2024-05-18 13:50:21,056 - INFO - Node None does not exist
+2024-05-18 13:50:21,060 - INFO - Node None does not exist
+2024-05-18 13:50:21,064 - INFO - Node None does not exist
+2024-05-18 13:50:21,386 - INFO - Node None does not exist
+2024-05-18 13:50:21,391 - INFO - Node None does not exist
+2024-05-18 13:50:21,394 - INFO - Node None does not exist
+2024-05-18 13:50:21,396 - INFO - Node None does not exist
+2024-05-18 13:50:21,398 - INFO - Node None does not exist
+2024-05-18 13:50:21,399 - INFO - Node None does not exist
+2024-05-18 13:50:21,401 - INFO - Node None does not exist
+2024-05-18 13:50:21,404 - INFO - Node None does not exist
+2024-05-18 13:50:21,407 - INFO - Node None does not exist
+2024-05-18 13:50:21,411 - INFO - Node None does not exist
+2024-05-18 13:50:21,419 - INFO - Node None does not exist
+2024-05-18 13:50:21,429 - INFO - Node None does not exist
+2024-05-18 13:50:21,431 - INFO - Node None does not exist
+2024-05-18 13:50:21,440 - INFO - Node None does not exist
+2024-05-18 13:50:21,448 - INFO - Node None does not exist
+2024-05-18 13:50:21,453 - INFO - Node None does not exist
+2024-05-18 13:50:21,456 - INFO - Node None does not exist
+2024-05-18 13:50:21,467 - INFO - Node None does not exist
+2024-05-18 13:50:21,475 - INFO - Node None does not exist
+2024-05-18 13:50:21,482 - INFO - Node None does not exist
+2024-05-18 13:50:21,485 - INFO - Node None does not exist
+2024-05-18 13:50:21,495 - INFO - Node None does not exist
+2024-05-18 13:50:21,503 - INFO - Node None does not exist
+2024-05-18 13:50:21,505 - INFO - Node None does not exist
+2024-05-18 13:50:21,507 - INFO - Node None does not exist
+2024-05-18 13:50:21,509 - INFO - Node None does not exist
+2024-05-18 13:50:21,511 - INFO - Node None does not exist
+2024-05-18 13:50:21,514 - INFO - Node None does not exist
+2024-05-18 13:50:21,522 - INFO - Node None does not exist
+2024-05-18 13:50:21,534 - INFO - Node None does not exist
+2024-05-18 13:50:21,537 - INFO - Node None does not exist
+2024-05-18 13:50:21,546 - INFO - Node None does not exist
+2024-05-18 13:50:21,551 - INFO - Node None does not exist
+2024-05-18 13:50:21,553 - INFO - Node None does not exist
+2024-05-18 13:50:21,555 - INFO - Node None does not exist
+2024-05-18 13:50:21,609 - INFO - Node None does not exist
+2024-05-18 13:50:21,617 - INFO - Node None does not exist
+2024-05-18 13:50:21,621 - INFO - Node None does not exist
+2024-05-18 13:50:21,623 - INFO - Node None does not exist
+2024-05-18 13:50:21,625 - INFO - Node None does not exist
+2024-05-18 13:50:21,631 - INFO - Node None does not exist
+2024-05-18 13:50:21,638 - INFO - Node None does not exist
+2024-05-18 13:50:21,640 - INFO - Node None does not exist
+2024-05-18 13:50:21,643 - INFO - Node None does not exist
+2024-05-18 13:50:21,647 - INFO - Node None does not exist
+2024-05-18 13:50:21,652 - INFO - Node None does not exist
+2024-05-18 13:50:21,655 - INFO - Node None does not exist
+2024-05-18 13:50:21,660 - INFO - Node None does not exist
+2024-05-18 13:50:21,665 - INFO - Node None does not exist
+2024-05-18 13:50:21,668 - INFO - Node None does not exist
+2024-05-18 13:50:21,673 - INFO - Node None does not exist
+2024-05-18 13:50:21,676 - INFO - Node None does not exist
+2024-05-18 13:50:21,678 - INFO - Node None does not exist
+2024-05-18 13:50:21,681 - INFO - Node None does not exist
+2024-05-18 13:50:21,684 - INFO - Node None does not exist
+2024-05-18 13:50:21,692 - INFO - Node None does not exist
+2024-05-18 13:50:21,697 - INFO - Node None does not exist
+2024-05-18 13:50:21,702 - INFO - Node None does not exist
+2024-05-18 13:50:21,704 - INFO - Node None does not exist
+2024-05-18 13:50:21,708 - INFO - Node None does not exist
+2024-05-18 13:50:21,767 - INFO - Node None does not exist
+2024-05-18 13:50:21,769 - INFO - Node None does not exist
+2024-05-18 13:50:21,777 - INFO - Node None does not exist
+2024-05-18 13:50:21,784 - INFO - Node None does not exist
+2024-05-18 13:50:21,788 - INFO - Node None does not exist
+2024-05-18 13:50:21,789 - INFO - Node None does not exist
+2024-05-18 13:50:21,794 - INFO - Node None does not exist
+2024-05-18 13:50:21,799 - INFO - Node None does not exist
+2024-05-18 13:50:21,811 - INFO - Node None does not exist
+2024-05-18 13:50:22,056 - INFO - Node None does not exist
+2024-05-18 13:50:22,069 - INFO - Node None does not exist
+2024-05-18 13:50:22,076 - INFO - Node None does not exist
+2024-05-18 13:50:22,080 - INFO - Node None does not exist
+2024-05-18 13:50:22,090 - INFO - Node None does not exist
+2024-05-18 13:50:22,153 - INFO - Node None does not exist
+2024-05-18 13:50:22,157 - INFO - Node None does not exist
+2024-05-18 13:50:22,159 - INFO - Node None does not exist
+2024-05-18 13:50:22,162 - INFO - Node None does not exist
+2024-05-18 13:50:22,165 - INFO - Node None does not exist
+2024-05-18 13:50:22,171 - INFO - Node None does not exist
+2024-05-18 13:50:22,182 - INFO - Node None does not exist
+2024-05-18 13:50:22,190 - INFO - Node None does not exist
+2024-05-18 13:50:22,192 - INFO - Node None does not exist
+2024-05-18 13:50:22,197 - INFO - Node None does not exist
+2024-05-18 13:50:22,198 - INFO - Node None does not exist
+2024-05-18 13:50:22,204 - INFO - Node None does not exist
+2024-05-18 13:50:22,207 - INFO - Node None does not exist
+2024-05-18 13:50:22,209 - INFO - Node None does not exist
+2024-05-18 13:50:22,211 - INFO - Node None does not exist
+2024-05-18 13:50:22,212 - INFO - Node None does not exist
+2024-05-18 13:50:22,214 - INFO - Node None does not exist
+2024-05-18 13:50:22,304 - INFO - Node None does not exist
+2024-05-18 13:50:22,316 - INFO - Node None does not exist
+2024-05-18 13:50:22,319 - INFO - Node None does not exist
+2024-05-18 13:50:22,323 - INFO - Node None does not exist
+2024-05-18 13:50:22,329 - INFO - Node None does not exist
+2024-05-18 13:50:22,332 - INFO - Node None does not exist
+2024-05-18 13:50:22,334 - INFO - Node None does not exist
+2024-05-18 13:50:22,360 - INFO - Node None does not exist
+2024-05-18 13:50:22,482 - INFO - Node None does not exist
+2024-05-18 13:50:22,487 - INFO - Node None does not exist
+2024-05-18 13:50:22,497 - INFO - Node None does not exist
+2024-05-18 13:50:22,504 - INFO - Node None does not exist
+2024-05-18 13:50:22,506 - INFO - Node None does not exist
+2024-05-18 13:50:22,510 - INFO - Node None does not exist
+2024-05-18 13:50:22,515 - INFO - Node None does not exist
+2024-05-18 13:50:22,518 - INFO - Node None does not exist
+2024-05-18 13:50:22,527 - INFO - Node None does not exist
+2024-05-18 13:50:22,837 - INFO - Node None does not exist
+2024-05-18 13:50:22,847 - INFO - Node None does not exist
+2024-05-18 13:50:22,859 - INFO - Node None does not exist
+2024-05-18 13:50:22,862 - INFO - Node None does not exist
+2024-05-18 13:50:22,867 - INFO - Node None does not exist
+2024-05-18 13:50:22,870 - INFO - Node None does not exist
+2024-05-18 13:50:22,927 - INFO - Node None does not exist
+2024-05-18 13:50:22,938 - INFO - Node None does not exist
+2024-05-18 13:50:23,052 - INFO - Node None does not exist
+2024-05-18 13:50:23,062 - INFO - Node None does not exist
+2024-05-18 13:50:23,066 - INFO - Node None does not exist
+2024-05-18 13:50:23,073 - INFO - Node None does not exist
+2024-05-18 13:50:23,083 - INFO - Node None does not exist
+2024-05-18 13:50:23,139 - INFO - Node None does not exist
+2024-05-18 13:50:23,144 - INFO - Node None does not exist
+2024-05-18 13:50:23,152 - INFO - Node None does not exist
+2024-05-18 13:50:23,169 - INFO - Node None does not exist
+2024-05-18 13:50:23,184 - INFO - Node None does not exist
+2024-05-18 13:50:24,252 - INFO - Node None does not exist
+2024-05-18 13:50:24,259 - INFO - Node None does not exist
+2024-05-18 13:50:24,267 - INFO - Node None does not exist
+2024-05-18 13:50:24,271 - INFO - Node None does not exist
+2024-05-18 13:50:24,273 - INFO - Node None does not exist
+2024-05-18 13:50:24,282 - INFO - Node None does not exist
+2024-05-18 13:50:24,307 - INFO - Node None does not exist
+2024-05-18 13:50:24,604 - INFO - Node None does not exist
+2024-05-18 13:50:24,615 - INFO - Node None does not exist
+2024-05-18 13:50:24,624 - INFO - Node None does not exist
+2024-05-18 13:50:24,632 - INFO - Node None does not exist
+2024-05-18 13:50:24,640 - INFO - Node None does not exist
+2024-05-18 13:56:29,041 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 13:57:09,250 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:03:15,978 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:05:47,846 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:08:39,821 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:09:32,006 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:09:59,385 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:11:06,621 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:11:54,547 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:12:06,360 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:12:43,549 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:13:34,928 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:13:42,264 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:14:15,948 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:14:20,375 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:14:24,326 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:14:28,176 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:14:47,177 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:15:30,929 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:16:58,923 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:17:20,529 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:17:59,646 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:19:22,853 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:19:39,872 - INFO - Node None does not exist
+2024-05-18 14:19:39,884 - INFO - Node None does not exist
+2024-05-18 14:19:39,893 - INFO - Node None does not exist
+2024-05-18 14:19:39,896 - INFO - Node None does not exist
+2024-05-18 14:19:39,903 - INFO - Node None does not exist
+2024-05-18 14:19:39,907 - INFO - Node None does not exist
+2024-05-18 14:19:39,909 - INFO - Node None does not exist
+2024-05-18 14:19:39,911 - INFO - Node None does not exist
+2024-05-18 14:19:39,938 - INFO - Node None does not exist
+2024-05-18 14:19:40,001 - INFO - Node None does not exist
+2024-05-18 14:19:40,008 - INFO - Node None does not exist
+2024-05-18 14:19:40,015 - INFO - Node None does not exist
+2024-05-18 14:19:40,019 - INFO - Node None does not exist
+2024-05-18 14:19:40,021 - INFO - Node None does not exist
+2024-05-18 14:19:40,044 - INFO - Node None does not exist
+2024-05-18 14:19:40,336 - INFO - Node None does not exist
+2024-05-18 14:19:40,338 - INFO - Node None does not exist
+2024-05-18 14:19:40,340 - INFO - Node None does not exist
+2024-05-18 14:19:40,342 - INFO - Node None does not exist
+2024-05-18 14:19:40,344 - INFO - Node None does not exist
+2024-05-18 14:19:40,345 - INFO - Node None does not exist
+2024-05-18 14:19:40,356 - INFO - Node None does not exist
+2024-05-18 14:19:40,388 - INFO - Node None does not exist
+2024-05-18 14:19:40,571 - INFO - Node None does not exist
+2024-05-18 14:19:40,847 - INFO - Node None does not exist
+2024-05-18 14:19:40,853 - INFO - Node None does not exist
+2024-05-18 14:19:40,864 - INFO - Node None does not exist
+2024-05-18 14:19:40,869 - INFO - Node None does not exist
+2024-05-18 14:19:40,871 - INFO - Node None does not exist
+2024-05-18 14:19:40,889 - INFO - Node None does not exist
+2024-05-18 14:19:40,894 - INFO - Node None does not exist
+2024-05-18 14:19:40,896 - INFO - Node None does not exist
+2024-05-18 14:19:40,900 - INFO - Node None does not exist
+2024-05-18 14:19:40,902 - INFO - Node None does not exist
+2024-05-18 14:19:40,905 - INFO - Node None does not exist
+2024-05-18 14:19:40,907 - INFO - Node None does not exist
+2024-05-18 14:19:40,909 - INFO - Node None does not exist
+2024-05-18 14:19:40,914 - INFO - Node None does not exist
+2024-05-18 14:19:40,918 - INFO - Node None does not exist
+2024-05-18 14:19:40,921 - INFO - Node None does not exist
+2024-05-18 14:19:40,925 - INFO - Node None does not exist
+2024-05-18 14:19:40,934 - INFO - Node None does not exist
+2024-05-18 14:19:40,938 - INFO - Node None does not exist
+2024-05-18 14:19:40,939 - INFO - Node None does not exist
+2024-05-18 14:19:40,948 - INFO - Node None does not exist
+2024-05-18 14:19:41,024 - INFO - Node None does not exist
+2024-05-18 14:19:41,140 - INFO - Node None does not exist
+2024-05-18 14:19:41,164 - INFO - Node None does not exist
+2024-05-18 14:19:41,174 - INFO - Node None does not exist
+2024-05-18 14:19:41,183 - INFO - Node None does not exist
+2024-05-18 14:19:41,989 - INFO - Node None does not exist
+2024-05-18 14:19:41,995 - INFO - Node None does not exist
+2024-05-18 14:19:42,004 - INFO - Node None does not exist
+2024-05-18 14:19:42,010 - INFO - Node None does not exist
+2024-05-18 14:19:42,030 - INFO - Node None does not exist
+2024-05-18 14:19:42,096 - INFO - Node None does not exist
+2024-05-18 14:19:42,109 - INFO - Node None does not exist
+2024-05-18 14:19:42,165 - INFO - Node None does not exist
+2024-05-18 14:19:42,177 - INFO - Node None does not exist
+2024-05-18 14:19:42,292 - INFO - Node None does not exist
+2024-05-18 14:19:42,294 - INFO - Node None does not exist
+2024-05-18 14:19:42,296 - INFO - Node None does not exist
+2024-05-18 14:19:42,297 - INFO - Node None does not exist
+2024-05-18 14:19:42,308 - INFO - Node None does not exist
+2024-05-18 14:19:42,315 - INFO - Node None does not exist
+2024-05-18 14:19:42,316 - INFO - Node None does not exist
+2024-05-18 14:19:42,318 - INFO - Node None does not exist
+2024-05-18 14:19:42,325 - INFO - Node None does not exist
+2024-05-18 14:19:42,328 - INFO - Node None does not exist
+2024-05-18 14:19:42,339 - INFO - Node None does not exist
+2024-05-18 14:19:42,449 - INFO - Node None does not exist
+2024-05-18 14:19:42,459 - INFO - Node None does not exist
+2024-05-18 14:19:42,463 - INFO - Node None does not exist
+2024-05-18 14:19:42,467 - INFO - Node None does not exist
+2024-05-18 14:19:42,477 - INFO - Node None does not exist
+2024-05-18 14:19:42,484 - INFO - Node None does not exist
+2024-05-18 14:19:42,492 - INFO - Node None does not exist
+2024-05-18 14:19:42,500 - INFO - Node None does not exist
+2024-05-18 14:19:42,503 - INFO - Node None does not exist
+2024-05-18 14:19:42,504 - INFO - Node None does not exist
+2024-05-18 14:19:42,506 - INFO - Node None does not exist
+2024-05-18 14:19:42,509 - INFO - Node None does not exist
+2024-05-18 14:19:42,518 - INFO - Node None does not exist
+2024-05-18 14:19:42,546 - INFO - Node None does not exist
+2024-05-18 14:19:42,739 - INFO - Node None does not exist
+2024-05-18 14:19:42,743 - INFO - Node None does not exist
+2024-05-18 14:19:42,747 - INFO - Node None does not exist
+2024-05-18 14:19:42,750 - INFO - Node None does not exist
+2024-05-18 14:19:42,751 - INFO - Node None does not exist
+2024-05-18 14:19:42,756 - INFO - Node None does not exist
+2024-05-18 14:19:42,758 - INFO - Node None does not exist
+2024-05-18 14:19:42,759 - INFO - Node None does not exist
+2024-05-18 14:19:42,761 - INFO - Node None does not exist
+2024-05-18 14:19:42,762 - INFO - Node None does not exist
+2024-05-18 14:19:42,764 - INFO - Node None does not exist
+2024-05-18 14:19:42,767 - INFO - Node None does not exist
+2024-05-18 14:19:42,770 - INFO - Node None does not exist
+2024-05-18 14:19:42,773 - INFO - Node None does not exist
+2024-05-18 14:19:42,775 - INFO - Node None does not exist
+2024-05-18 14:19:42,776 - INFO - Node None does not exist
+2024-05-18 14:19:42,777 - INFO - Node None does not exist
+2024-05-18 14:19:42,779 - INFO - Node None does not exist
+2024-05-18 14:19:42,792 - INFO - Node None does not exist
+2024-05-18 14:19:43,141 - INFO - Node None does not exist
+2024-05-18 14:19:43,150 - INFO - Node None does not exist
+2024-05-18 14:19:43,159 - INFO - Node None does not exist
+2024-05-18 14:19:43,162 - INFO - Node None does not exist
+2024-05-18 14:19:43,164 - INFO - Node None does not exist
+2024-05-18 14:19:43,167 - INFO - Node None does not exist
+2024-05-18 14:19:43,168 - INFO - Node None does not exist
+2024-05-18 14:19:43,171 - INFO - Node None does not exist
+2024-05-18 14:19:43,173 - INFO - Node None does not exist
+2024-05-18 14:19:43,175 - INFO - Node None does not exist
+2024-05-18 14:19:43,178 - INFO - Node None does not exist
+2024-05-18 14:19:43,180 - INFO - Node None does not exist
+2024-05-18 14:19:43,183 - INFO - Node None does not exist
+2024-05-18 14:19:43,185 - INFO - Node None does not exist
+2024-05-18 14:19:43,186 - INFO - Node None does not exist
+2024-05-18 14:19:43,188 - INFO - Node None does not exist
+2024-05-18 14:19:43,193 - INFO - Node None does not exist
+2024-05-18 14:19:43,206 - INFO - Node None does not exist
+2024-05-18 14:19:43,265 - INFO - Node None does not exist
+2024-05-18 14:19:43,268 - INFO - Node None does not exist
+2024-05-18 14:19:43,270 - INFO - Node None does not exist
+2024-05-18 14:19:43,272 - INFO - Node None does not exist
+2024-05-18 14:19:43,277 - INFO - Node None does not exist
+2024-05-18 14:19:43,280 - INFO - Node None does not exist
+2024-05-18 14:19:43,282 - INFO - Node None does not exist
+2024-05-18 14:19:43,283 - INFO - Node None does not exist
+2024-05-18 14:19:43,286 - INFO - Node None does not exist
+2024-05-18 14:19:43,288 - INFO - Node None does not exist
+2024-05-18 14:19:43,290 - INFO - Node None does not exist
+2024-05-18 14:19:43,300 - INFO - Node None does not exist
+2024-05-18 14:19:43,309 - INFO - Node None does not exist
+2024-05-18 14:19:43,311 - INFO - Node None does not exist
+2024-05-18 14:19:43,315 - INFO - Node None does not exist
+2024-05-18 14:19:43,317 - INFO - Node None does not exist
+2024-05-18 14:19:43,318 - INFO - Node None does not exist
+2024-05-18 14:19:43,328 - INFO - Node None does not exist
+2024-05-18 14:19:43,329 - INFO - Node None does not exist
+2024-05-18 14:19:43,331 - INFO - Node None does not exist
+2024-05-18 14:19:43,334 - INFO - Node None does not exist
+2024-05-18 14:19:43,336 - INFO - Node None does not exist
+2024-05-18 14:19:43,338 - INFO - Node None does not exist
+2024-05-18 14:19:43,344 - INFO - Node None does not exist
+2024-05-18 14:19:43,349 - INFO - Node None does not exist
+2024-05-18 14:19:43,351 - INFO - Node None does not exist
+2024-05-18 14:19:43,352 - INFO - Node None does not exist
+2024-05-18 14:19:43,354 - INFO - Node None does not exist
+2024-05-18 14:19:43,356 - INFO - Node None does not exist
+2024-05-18 14:19:43,418 - INFO - Node None does not exist
+2024-05-18 14:19:43,427 - INFO - Node None does not exist
+2024-05-18 14:19:43,431 - INFO - Node None does not exist
+2024-05-18 14:19:43,505 - INFO - Node None does not exist
+2024-05-18 14:19:43,512 - INFO - Node None does not exist
+2024-05-18 14:19:43,522 - INFO - Node None does not exist
+2024-05-18 14:19:43,530 - INFO - Node None does not exist
+2024-05-18 14:19:43,531 - INFO - Node None does not exist
+2024-05-18 14:19:43,540 - INFO - Node None does not exist
+2024-05-18 14:19:43,555 - INFO - Node None does not exist
+2024-05-18 14:19:43,715 - INFO - Node None does not exist
+2024-05-18 14:19:43,717 - INFO - Node None does not exist
+2024-05-18 14:19:43,723 - INFO - Node None does not exist
+2024-05-18 14:19:43,734 - INFO - Node None does not exist
+2024-05-18 14:19:43,742 - INFO - Node None does not exist
+2024-05-18 14:19:43,745 - INFO - Node None does not exist
+2024-05-18 14:19:43,755 - INFO - Node None does not exist
+2024-05-18 14:19:43,923 - INFO - Node None does not exist
+2024-05-18 14:19:43,926 - INFO - Node None does not exist
+2024-05-18 14:19:43,928 - INFO - Node None does not exist
+2024-05-18 14:19:43,930 - INFO - Node None does not exist
+2024-05-18 14:19:43,934 - INFO - Node None does not exist
+2024-05-18 14:19:43,938 - INFO - Node None does not exist
+2024-05-18 14:19:43,940 - INFO - Node None does not exist
+2024-05-18 14:19:43,941 - INFO - Node None does not exist
+2024-05-18 14:19:43,945 - INFO - Node None does not exist
+2024-05-18 14:19:43,947 - INFO - Node None does not exist
+2024-05-18 14:19:43,953 - INFO - Node None does not exist
+2024-05-18 14:19:43,959 - INFO - Node None does not exist
+2024-05-18 14:19:43,966 - INFO - Node None does not exist
+2024-05-18 14:19:44,127 - INFO - Node None does not exist
+2024-05-18 14:19:44,129 - INFO - Node None does not exist
+2024-05-18 14:19:44,131 - INFO - Node None does not exist
+2024-05-18 14:19:44,134 - INFO - Node None does not exist
+2024-05-18 14:19:44,140 - INFO - Node None does not exist
+2024-05-18 14:19:44,150 - INFO - Node None does not exist
+2024-05-18 14:19:44,161 - INFO - Node None does not exist
+2024-05-18 14:19:44,167 - INFO - Node None does not exist
+2024-05-18 14:19:44,172 - INFO - Node None does not exist
+2024-05-18 14:19:44,227 - INFO - Node None does not exist
+2024-05-18 14:19:44,229 - INFO - Node None does not exist
+2024-05-18 14:19:44,232 - INFO - Node None does not exist
+2024-05-18 14:19:44,235 - INFO - Node None does not exist
+2024-05-18 14:19:44,236 - INFO - Node None does not exist
+2024-05-18 14:19:44,238 - INFO - Node None does not exist
+2024-05-18 14:19:44,240 - INFO - Node None does not exist
+2024-05-18 14:19:44,243 - INFO - Node None does not exist
+2024-05-18 14:19:44,245 - INFO - Node None does not exist
+2024-05-18 14:19:44,248 - INFO - Node None does not exist
+2024-05-18 14:19:44,250 - INFO - Node None does not exist
+2024-05-18 14:19:44,252 - INFO - Node None does not exist
+2024-05-18 14:19:44,257 - INFO - Node None does not exist
+2024-05-18 14:19:44,261 - INFO - Node None does not exist
+2024-05-18 14:19:44,267 - INFO - Node None does not exist
+2024-05-18 14:19:44,274 - INFO - Node None does not exist
+2024-05-18 14:19:44,340 - INFO - Node None does not exist
+2024-05-18 14:19:44,344 - INFO - Node None does not exist
+2024-05-18 14:19:44,354 - INFO - Node None does not exist
+2024-05-18 14:19:44,363 - INFO - Node None does not exist
+2024-05-18 14:19:44,369 - INFO - Node None does not exist
+2024-05-18 14:19:44,372 - INFO - Node None does not exist
+2024-05-18 14:19:44,375 - INFO - Node None does not exist
+2024-05-18 14:19:44,377 - INFO - Node None does not exist
+2024-05-18 14:19:44,379 - INFO - Node None does not exist
+2024-05-18 14:19:44,387 - INFO - Node None does not exist
+2024-05-18 14:19:44,490 - INFO - Node None does not exist
+2024-05-18 14:19:44,500 - INFO - Node None does not exist
+2024-05-18 14:19:44,508 - INFO - Node None does not exist
+2024-05-18 14:19:44,511 - INFO - Node None does not exist
+2024-05-18 14:19:44,513 - INFO - Node None does not exist
+2024-05-18 14:19:44,519 - INFO - Node None does not exist
+2024-05-18 14:19:44,522 - INFO - Node None does not exist
+2024-05-18 14:19:44,524 - INFO - Node None does not exist
+2024-05-18 14:19:44,529 - INFO - Node None does not exist
+2024-05-18 14:19:44,532 - INFO - Node None does not exist
+2024-05-18 14:19:44,536 - INFO - Node None does not exist
+2024-05-18 14:19:44,539 - INFO - Node None does not exist
+2024-05-18 14:19:44,550 - INFO - Node None does not exist
+2024-05-18 14:19:44,557 - INFO - Node None does not exist
+2024-05-18 14:19:44,563 - INFO - Node None does not exist
+2024-05-18 14:19:44,566 - INFO - Node None does not exist
+2024-05-18 14:19:44,567 - INFO - Node None does not exist
+2024-05-18 14:19:44,570 - INFO - Node None does not exist
+2024-05-18 14:19:44,572 - INFO - Node None does not exist
+2024-05-18 14:19:44,574 - INFO - Node None does not exist
+2024-05-18 14:19:44,576 - INFO - Node None does not exist
+2024-05-18 14:19:44,582 - INFO - Node None does not exist
+2024-05-18 14:19:44,592 - INFO - Node None does not exist
+2024-05-18 14:19:44,695 - INFO - Node None does not exist
+2024-05-18 14:19:44,697 - INFO - Node None does not exist
+2024-05-18 14:19:44,699 - INFO - Node None does not exist
+2024-05-18 14:19:44,714 - INFO - Node None does not exist
+2024-05-18 14:19:44,723 - INFO - Node None does not exist
+2024-05-18 14:19:44,727 - INFO - Node None does not exist
+2024-05-18 14:19:44,730 - INFO - Node None does not exist
+2024-05-18 14:19:44,735 - INFO - Node None does not exist
+2024-05-18 14:19:44,739 - INFO - Node None does not exist
+2024-05-18 14:19:44,743 - INFO - Node None does not exist
+2024-05-18 14:19:45,019 - INFO - Node None does not exist
+2024-05-18 14:19:45,021 - INFO - Node None does not exist
+2024-05-18 14:19:45,024 - INFO - Node None does not exist
+2024-05-18 14:19:45,026 - INFO - Node None does not exist
+2024-05-18 14:19:45,028 - INFO - Node None does not exist
+2024-05-18 14:19:45,030 - INFO - Node None does not exist
+2024-05-18 14:19:45,040 - INFO - Node None does not exist
+2024-05-18 14:19:45,051 - INFO - Node None does not exist
+2024-05-18 14:19:45,054 - INFO - Node None does not exist
+2024-05-18 14:19:45,055 - INFO - Node None does not exist
+2024-05-18 14:19:45,057 - INFO - Node None does not exist
+2024-05-18 14:19:45,058 - INFO - Node None does not exist
+2024-05-18 14:19:45,060 - INFO - Node None does not exist
+2024-05-18 14:19:45,062 - INFO - Node None does not exist
+2024-05-18 14:19:45,072 - INFO - Node None does not exist
+2024-05-18 14:19:45,136 - INFO - Node None does not exist
+2024-05-18 14:19:45,145 - INFO - Node None does not exist
+2024-05-18 14:19:45,150 - INFO - Node None does not exist
+2024-05-18 14:19:45,155 - INFO - Node None does not exist
+2024-05-18 14:19:45,161 - INFO - Node None does not exist
+2024-05-18 14:19:45,166 - INFO - Node None does not exist
+2024-05-18 14:19:45,169 - INFO - Node None does not exist
+2024-05-18 14:19:45,170 - INFO - Node None does not exist
+2024-05-18 14:19:45,174 - INFO - Node None does not exist
+2024-05-18 14:19:45,178 - INFO - Node None does not exist
+2024-05-18 14:19:45,190 - INFO - Node None does not exist
+2024-05-18 14:19:45,233 - INFO - Node None does not exist
+2024-05-18 14:19:45,237 - INFO - Node None does not exist
+2024-05-18 14:19:45,240 - INFO - Node None does not exist
+2024-05-18 14:19:45,251 - INFO - Node None does not exist
+2024-05-18 14:19:45,264 - INFO - Node None does not exist
+2024-05-18 14:19:45,268 - INFO - Node None does not exist
+2024-05-18 14:19:45,278 - INFO - Node None does not exist
+2024-05-18 14:19:45,285 - INFO - Node None does not exist
+2024-05-18 14:19:45,286 - INFO - Node None does not exist
+2024-05-18 14:19:45,288 - INFO - Node None does not exist
+2024-05-18 14:19:45,290 - INFO - Node None does not exist
+2024-05-18 14:19:45,292 - INFO - Node None does not exist
+2024-05-18 14:19:45,294 - INFO - Node None does not exist
+2024-05-18 14:19:45,297 - INFO - Node None does not exist
+2024-05-18 14:19:45,406 - INFO - Node None does not exist
+2024-05-18 14:19:45,408 - INFO - Node None does not exist
+2024-05-18 14:19:45,411 - INFO - Node None does not exist
+2024-05-18 14:19:45,413 - INFO - Node None does not exist
+2024-05-18 14:19:45,415 - INFO - Node None does not exist
+2024-05-18 14:19:45,419 - INFO - Node None does not exist
+2024-05-18 14:19:45,421 - INFO - Node None does not exist
+2024-05-18 14:19:45,427 - INFO - Node None does not exist
+2024-05-18 14:19:45,432 - INFO - Node None does not exist
+2024-05-18 14:19:45,434 - INFO - Node None does not exist
+2024-05-18 14:19:45,436 - INFO - Node None does not exist
+2024-05-18 14:19:45,438 - INFO - Node None does not exist
+2024-05-18 14:19:45,441 - INFO - Node None does not exist
+2024-05-18 14:19:45,444 - INFO - Node None does not exist
+2024-05-18 14:19:45,446 - INFO - Node None does not exist
+2024-05-18 14:19:45,449 - INFO - Node None does not exist
+2024-05-18 14:19:45,452 - INFO - Node None does not exist
+2024-05-18 14:19:45,454 - INFO - Node None does not exist
+2024-05-18 14:19:45,463 - INFO - Node None does not exist
+2024-05-18 14:19:45,465 - INFO - Node None does not exist
+2024-05-18 14:19:45,466 - INFO - Node None does not exist
+2024-05-18 14:19:45,468 - INFO - Node None does not exist
+2024-05-18 14:19:45,478 - INFO - Node None does not exist
+2024-05-18 14:19:45,488 - INFO - Node None does not exist
+2024-05-18 14:19:45,495 - INFO - Node None does not exist
+2024-05-18 14:19:45,499 - INFO - Node None does not exist
+2024-05-18 14:19:45,501 - INFO - Node None does not exist
+2024-05-18 14:19:45,511 - INFO - Node None does not exist
+2024-05-18 14:19:45,569 - INFO - Node None does not exist
+2024-05-18 14:19:45,572 - INFO - Node None does not exist
+2024-05-18 14:19:45,575 - INFO - Node None does not exist
+2024-05-18 14:19:45,578 - INFO - Node None does not exist
+2024-05-18 14:19:45,581 - INFO - Node None does not exist
+2024-05-18 14:19:45,585 - INFO - Node None does not exist
+2024-05-18 14:19:45,587 - INFO - Node None does not exist
+2024-05-18 14:19:45,589 - INFO - Node None does not exist
+2024-05-18 14:19:45,593 - INFO - Node None does not exist
+2024-05-18 14:19:45,597 - INFO - Node None does not exist
+2024-05-18 14:19:45,600 - INFO - Node None does not exist
+2024-05-18 14:19:45,602 - INFO - Node None does not exist
+2024-05-18 14:19:45,603 - INFO - Node None does not exist
+2024-05-18 14:19:45,605 - INFO - Node None does not exist
+2024-05-18 14:19:45,606 - INFO - Node None does not exist
+2024-05-18 14:19:45,608 - INFO - Node None does not exist
+2024-05-18 14:19:45,615 - INFO - Node None does not exist
+2024-05-18 14:19:45,618 - INFO - Node None does not exist
+2024-05-18 14:19:45,624 - INFO - Node None does not exist
+2024-05-18 14:19:45,849 - INFO - Node None does not exist
+2024-05-18 14:19:45,854 - INFO - Node None does not exist
+2024-05-18 14:19:45,857 - INFO - Node None does not exist
+2024-05-18 14:19:45,860 - INFO - Node None does not exist
+2024-05-18 14:19:45,864 - INFO - Node None does not exist
+2024-05-18 14:19:45,867 - INFO - Node None does not exist
+2024-05-18 14:19:45,870 - INFO - Node None does not exist
+2024-05-18 14:19:45,873 - INFO - Node None does not exist
+2024-05-18 14:19:45,875 - INFO - Node None does not exist
+2024-05-18 14:19:45,878 - INFO - Node None does not exist
+2024-05-18 14:19:45,880 - INFO - Node None does not exist
+2024-05-18 14:19:45,883 - INFO - Node None does not exist
+2024-05-18 14:19:45,886 - INFO - Node None does not exist
+2024-05-18 14:19:45,887 - INFO - Node None does not exist
+2024-05-18 14:19:45,891 - INFO - Node None does not exist
+2024-05-18 14:19:45,895 - INFO - Node None does not exist
+2024-05-18 14:19:45,944 - INFO - Node None does not exist
+2024-05-18 14:19:45,946 - INFO - Node None does not exist
+2024-05-18 14:19:45,954 - INFO - Node None does not exist
+2024-05-18 14:19:45,964 - INFO - Node None does not exist
+2024-05-18 14:19:45,980 - INFO - Node None does not exist
+2024-05-18 14:19:46,042 - INFO - Node None does not exist
+2024-05-18 14:19:46,054 - INFO - Node None does not exist
+2024-05-18 14:19:46,066 - INFO - Node None does not exist
+2024-05-18 14:19:46,079 - INFO - Node None does not exist
+2024-05-18 14:19:46,173 - INFO - Node None does not exist
+2024-05-18 14:19:46,176 - INFO - Node None does not exist
+2024-05-18 14:19:46,186 - INFO - Node None does not exist
+2024-05-18 14:19:46,268 - INFO - Node None does not exist
+2024-05-18 14:19:46,278 - INFO - Node None does not exist
+2024-05-18 14:19:46,291 - INFO - Node None does not exist
+2024-05-18 14:19:46,349 - INFO - Node None does not exist
+2024-05-18 14:19:46,357 - INFO - Node None does not exist
+2024-05-18 14:19:46,365 - INFO - Node None does not exist
+2024-05-18 14:19:46,372 - INFO - Node None does not exist
+2024-05-18 14:19:46,378 - INFO - Node None does not exist
+2024-05-18 14:19:46,387 - INFO - Node None does not exist
+2024-05-18 14:19:46,449 - INFO - Node None does not exist
+2024-05-18 14:19:46,461 - INFO - Node None does not exist
+2024-05-18 14:19:46,468 - INFO - Node None does not exist
+2024-05-18 14:19:46,476 - INFO - Node None does not exist
+2024-05-18 14:19:46,488 - INFO - Node None does not exist
+2024-05-18 14:19:46,540 - INFO - Node None does not exist
+2024-05-18 14:19:46,545 - INFO - Node None does not exist
+2024-05-18 14:19:46,553 - INFO - Node None does not exist
+2024-05-18 14:19:46,564 - INFO - Node None does not exist
+2024-05-18 14:19:46,575 - INFO - Node None does not exist
+2024-05-18 14:19:46,686 - INFO - Node None does not exist
+2024-05-18 14:19:46,693 - INFO - Node None does not exist
+2024-05-18 14:19:46,695 - INFO - Node None does not exist
+2024-05-18 14:19:46,702 - INFO - Node None does not exist
+2024-05-18 14:19:46,769 - INFO - Node None does not exist
+2024-05-18 14:19:46,775 - INFO - Node None does not exist
+2024-05-18 14:19:46,777 - INFO - Node None does not exist
+2024-05-18 14:19:46,786 - INFO - Node None does not exist
+2024-05-18 14:19:46,898 - INFO - Node None does not exist
+2024-05-18 14:19:46,910 - INFO - Node None does not exist
+2024-05-18 14:19:46,936 - INFO - Node None does not exist
+2024-05-18 14:19:46,961 - INFO - Node None does not exist
+2024-05-18 14:19:46,973 - INFO - Node None does not exist
+2024-05-18 14:19:46,981 - INFO - Node None does not exist
+2024-05-18 14:19:46,986 - INFO - Node None does not exist
+2024-05-18 14:19:46,992 - INFO - Node None does not exist
+2024-05-18 14:19:46,996 - INFO - Node None does not exist
+2024-05-18 14:19:47,002 - INFO - Node None does not exist
+2024-05-18 14:19:47,151 - INFO - Node None does not exist
+2024-05-18 14:19:47,161 - INFO - Node None does not exist
+2024-05-18 14:19:47,169 - INFO - Node None does not exist
+2024-05-18 14:19:47,179 - INFO - Node None does not exist
+2024-05-18 14:19:47,190 - INFO - Node None does not exist
+2024-05-18 14:19:47,245 - INFO - Node None does not exist
+2024-05-18 14:19:47,252 - INFO - Node None does not exist
+2024-05-18 14:19:47,261 - INFO - Node None does not exist
+2024-05-18 14:19:47,345 - INFO - Node None does not exist
+2024-05-18 14:19:47,356 - INFO - Node None does not exist
+2024-05-18 14:19:47,367 - INFO - Node None does not exist
+2024-05-18 14:19:47,378 - INFO - Node None does not exist
+2024-05-18 14:19:47,388 - INFO - Node None does not exist
+2024-05-18 14:19:47,399 - INFO - Node None does not exist
+2024-05-18 14:19:47,680 - INFO - Node None does not exist
+2024-05-18 14:19:47,692 - INFO - Node None does not exist
+2024-05-18 14:19:47,696 - INFO - Node None does not exist
+2024-05-18 14:19:47,703 - INFO - Node None does not exist
+2024-05-18 14:19:47,716 - INFO - Node None does not exist
+2024-05-18 14:22:28,488 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:24:57,110 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:25:37,554 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:26:55,878 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:35:41,325 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:36:24,513 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:37:08,332 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:37:23,819 - INFO - Node UrbanBlock does not exist
+2024-05-18 14:44:49,117 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:45:06,640 - INFO - Node None does not exist
+2024-05-18 14:45:06,642 - INFO - Node None does not exist
+2024-05-18 14:46:47,801 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:47:05,201 - INFO - Node RuralBlock does not exist
+2024-05-18 14:53:59,607 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:54:19,378 - INFO - Node RuralBlock does not exist
+2024-05-18 14:57:05,038 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:57:24,536 - INFO - Node _w_home does not exist
+2024-05-18 14:57:38,662 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:57:57,625 - INFO - Node _w_home does not exist
+2024-05-18 14:58:05,866 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 14:58:25,203 - INFO - Node _w_home does not exist
+2024-05-18 15:09:42,363 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:09:59,683 - INFO - Node _w_home does not exist
+2024-05-18 15:26:05,555 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:26:25,272 - INFO - Node _w_home does not exist
+2024-05-18 15:32:20,923 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:32:39,625 - INFO - Node _home does not exist
+2024-05-18 15:35:21,888 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:45:52,016 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:46:15,618 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:46:27,845 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:47:15,873 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:47:38,514 - INFO - Node _home does not exist
+2024-05-18 15:48:13,742 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:50:41,824 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:52:34,716 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:54:41,860 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 15:57:10,336 - WARNING - A connection with no parent: EducationZone_2
+2024-05-18 16:38:49,434 - WARNING - A connection with no parent: EducationZone_2
+2024-05-24 08:53:21,854 - WARNING - A connection with no parent: EducationZone_2
+2024-05-24 08:54:20,358 - WARNING - A connection with no parent: EducationZone_2
+2024-05-26 10:50:51,932 - WARNING - A connection with no parent: EducationZone_2
+2024-05-26 10:51:44,575 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:20:27,888 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:27:59,680 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:28:33,883 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:29:29,086 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:29:37,538 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:39:20,331 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:40:21,932 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:42:26,862 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:44:16,022 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:44:30,358 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:46:14,159 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:47:09,520 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:47:25,844 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:47:46,322 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:55:59,780 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:56:44,254 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:57:20,571 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:58:18,465 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 10:59:17,809 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:00:28,773 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:01:06,650 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:04:51,706 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:05:52,899 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:07:23,542 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:08:53,805 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:10:31,980 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:14:32,044 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:15:49,185 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:16:46,180 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:17:25,760 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:19:06,991 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:19:41,608 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:25:22,485 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:26:21,792 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:45:21,018 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:46:53,675 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:48:22,136 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:50:21,474 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 11:55:51,158 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:00:36,940 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:01:11,938 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:13:46,979 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:15:10,378 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:16:40,933 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:20:19,457 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:20:31,313 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:21:36,351 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:38:37,376 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:40:40,076 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:40:52,146 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:42:18,133 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:42:44,346 - WARNING - A connection with no parent: EducationZone_2
+2024-06-02 12:44:53,056 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:41:51,146 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:43:05,477 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:43:54,270 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:44:19,154 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:44:56,096 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:45:39,360 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:46:30,303 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:47:03,226 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:48:28,994 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:48:47,923 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 03:54:10,211 - WARNING - A connection with no parent: EducationZone_2
+2024-06-03 20:53:21,762 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 18:47:06,218 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 18:47:29,974 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 18:48:20,358 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 18:51:51,338 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 18:52:20,767 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 18:52:41,816 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 18:54:32,622 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 18:58:51,976 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 18:59:23,443 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:14:50,255 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:19:53,801 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:20:18,709 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:20:25,051 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:21:21,435 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:21:28,372 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:22:19,944 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:32:40,749 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:33:44,888 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:43:31,054 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:43:43,352 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:46:54,282 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:47:32,167 - WARNING - A connection with no parent: EducationZone_2
+2024-06-04 19:56:42,890 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 00:01:51,567 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 00:02:08,865 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:18:27,418 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:19:26,184 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:27:39,974 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:29:59,286 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:30:14,126 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:30:31,685 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:30:38,094 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:30:46,536 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:31:25,953 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:31:35,828 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:40:32,745 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:40:45,628 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:41:12,097 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:41:43,800 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:41:57,873 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 10:42:20,059 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 17:03:49,496 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 17:03:58,144 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 17:16:00,048 - WARNING - A connection with no parent: EducationZone_2
+2024-06-05 17:16:09,080 - WARNING - A connection with no parent: EducationZone_2
+2024-06-06 16:08:08,465 - WARNING - A connection with no parent: EducationZone_2
+2024-06-06 16:08:33,372 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 18:34:14,373 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 18:34:42,085 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 18:54:53,260 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 18:55:06,787 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 19:58:34,832 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:06:17,191 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:06:37,851 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:07:31,049 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:08:58,316 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:11:25,539 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:12:04,768 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:14:10,194 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:18:41,634 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:25:40,898 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:25:49,597 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:27:35,748 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:28:13,288 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:29:08,680 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:29:35,220 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:36:04,426 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:36:28,055 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:37:17,439 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:38:25,397 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:40:44,364 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:41:37,168 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:42:32,575 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:42:58,320 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:43:41,593 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:43:57,289 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:44:09,337 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:47:10,044 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:47:36,016 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:47:49,886 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:48:10,943 - WARNING - A connection with no parent: EducationZone_2
+2024-06-07 20:48:23,974 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 08:57:57,050 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:22:44,048 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:23:12,968 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:23:57,042 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:24:26,867 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:25:03,037 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:29:44,192 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:30:02,078 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:30:47,558 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:31:30,569 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:33:00,953 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:44:58,585 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:51:56,095 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:52:47,702 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 15:58:58,319 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 16:01:48,204 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 16:02:09,697 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 16:05:52,195 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:07:48,471 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:08:32,751 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:12:24,199 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:12:53,884 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:12:54,316 - INFO - Node School does not exist
+2024-06-08 23:14:10,817 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:17:35,237 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:27:18,274 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:27:18,722 - INFO - Node School_1 does not exist
+2024-06-08 23:27:34,331 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:30:57,712 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:31:13,450 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:31:27,941 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:31:39,258 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:31:51,655 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:33:28,970 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:40:39,566 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:41:35,895 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:42:58,888 - WARNING - A connection with no parent: EducationZone_2
+2024-06-08 23:43:21,607 - WARNING - A connection with no parent: EducationZone_2
+2024-09-05 12:13:01,711 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,713 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,713 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,714 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,714 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,715 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,715 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,716 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,716 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,717 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,717 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,718 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,718 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,719 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,719 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,720 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,721 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,721 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,722 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,722 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,723 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,723 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,724 - INFO - Node School_2 does not exist
+2024-09-05 12:13:01,724 - INFO - Node School_2 does not exist
+2024-09-05 12:13:39,766 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,767 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,768 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,768 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,769 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,770 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,770 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,771 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,771 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,772 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,773 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,773 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,774 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,774 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,775 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,775 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,776 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,776 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,777 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,777 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,778 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,778 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,779 - INFO - Node School_3 does not exist
+2024-09-05 12:13:39,780 - INFO - Node School_3 does not exist
+2024-09-05 12:15:02,998 - INFO - Node School_0 does not exist
+2024-09-05 12:15:02,999 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,000 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,000 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,001 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,001 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,002 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,002 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,003 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,003 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,004 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,004 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,005 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,005 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,006 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,006 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,007 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,007 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,008 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,008 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,009 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,009 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,010 - INFO - Node School_0 does not exist
+2024-09-05 12:15:03,010 - INFO - Node School_0 does not exist
+2024-09-06 12:54:10,181 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,182 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,182 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,183 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,183 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,184 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,184 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,185 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,185 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,185 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,186 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,186 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,187 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,187 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,188 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,188 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,188 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,189 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,189 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,190 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,190 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,190 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,191 - INFO - Node School_1 does not exist
+2024-09-06 12:54:10,191 - INFO - Node School_1 does not exist
+2024-09-06 12:57:43,770 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,770 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,771 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,771 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,772 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,772 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,773 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,773 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,773 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,774 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,774 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,775 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,775 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,776 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,776 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,776 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,777 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,777 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,778 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,778 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,779 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,779 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,780 - INFO - Node School_3 does not exist
+2024-09-06 12:57:43,780 - INFO - Node School_3 does not exist
+2024-09-06 13:29:26,975 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,976 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,976 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,977 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,977 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,978 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,978 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,978 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,979 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,979 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,980 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,980 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,981 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,981 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,982 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,982 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,982 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,983 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,983 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,984 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,984 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,985 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,985 - INFO - Node School_0 does not exist
+2024-09-06 13:29:26,986 - INFO - Node School_0 does not exist
+2024-09-06 13:30:54,496 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,497 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,497 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,498 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,498 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,499 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,499 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,500 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,500 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,501 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,501 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,502 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,502 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,502 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,503 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,503 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,504 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,504 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,505 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,505 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,506 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,506 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,506 - INFO - Node School_4 does not exist
+2024-09-06 13:30:54,507 - INFO - Node School_4 does not exist
+2024-09-06 17:39:47,971 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,972 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,973 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,973 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,974 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,974 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,975 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,975 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,976 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,976 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,977 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,977 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,978 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,978 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,978 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,979 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,979 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,980 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,980 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,981 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,981 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,981 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,982 - INFO - Node School_5 does not exist
+2024-09-06 17:39:47,982 - INFO - Node School_5 does not exist
+2024-10-14 13:00:32,440 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:00:32,453 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:00:32,454 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:00:32,454 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:00:32,471 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:00:32,472 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:00:32,472 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:00:32,473 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:00:32,475 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:00:32,476 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:00:32,477 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:00:32,477 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:00:32,478 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:00:32,479 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:00:32,479 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:00:32,480 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:00:32,481 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:00:32,481 - WARNING - A connection with no parent: MedicalZone_3
+2024-10-14 13:00:47,620 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:00:47,620 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:00:47,621 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:00:47,621 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:00:47,623 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:00:47,624 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:00:47,639 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:00:47,640 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:00:47,642 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:00:47,643 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:00:47,644 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:00:47,644 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:00:47,644 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:00:47,645 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:00:47,645 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:00:47,646 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:00:47,647 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:00:47,647 - WARNING - A connection with no parent: MedicalZone_3
+2024-10-14 13:00:57,200 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:00:57,200 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:00:57,201 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:00:57,201 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:00:57,203 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:00:57,204 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:00:57,204 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:00:57,205 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:00:57,207 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:00:57,208 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:00:57,208 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:00:57,209 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:00:57,209 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:00:57,210 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:00:57,210 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:00:57,211 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:00:57,212 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:00:57,212 - WARNING - A connection with no parent: MedicalZone_3
+2024-10-14 13:01:13,776 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:01:13,776 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:01:13,777 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:01:13,777 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:01:13,779 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:01:13,780 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:01:13,780 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:01:13,781 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:01:13,783 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:01:13,784 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:01:13,784 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:01:13,785 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:01:13,786 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:01:13,786 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:01:13,787 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:01:13,788 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:01:13,789 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:01:13,789 - WARNING - A connection with no parent: MedicalZone_3
+2024-10-14 13:02:09,661 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:02:09,662 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:02:09,662 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:02:09,663 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:02:09,664 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:02:09,665 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:02:09,666 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:02:09,666 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:02:09,668 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:02:09,669 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:02:09,669 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:02:09,670 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:02:09,670 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:02:09,671 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:02:09,671 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:02:09,672 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:02:09,673 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:02:09,673 - WARNING - A connection with no parent: MedicalZone_3
+2024-10-14 13:04:07,541 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:04:07,542 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:04:07,542 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:04:07,543 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:04:07,544 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:04:07,545 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:04:07,546 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:04:07,547 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:04:07,550 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:04:07,551 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:04:07,551 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:04:07,552 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:04:07,552 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:04:07,553 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:04:07,554 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:04:07,555 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:04:07,555 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:04:07,556 - WARNING - A connection with no parent: MedicalZone_3
+2024-10-14 13:05:32,441 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:05:32,441 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:05:32,441 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:05:32,442 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:05:32,444 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:05:32,445 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:05:32,446 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:05:32,446 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:05:32,449 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:05:32,449 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:05:32,450 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:05:32,450 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:05:32,451 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:05:32,451 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:05:32,452 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:05:32,453 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:05:32,453 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:05:32,454 - WARNING - A connection with no parent: MedicalZone_3
+2024-10-14 13:05:55,225 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:05:55,225 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:05:55,226 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:05:55,226 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:05:55,228 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:05:55,229 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:05:55,230 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:05:55,230 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:05:55,233 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:05:55,233 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:05:55,234 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:05:55,234 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:05:55,235 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:05:55,236 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:05:55,236 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:05:55,238 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:05:55,238 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:05:55,239 - WARNING - A connection with no parent: MedicalZone_3
+2024-10-14 13:11:57,784 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:11:57,785 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:11:57,785 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:11:57,786 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:11:57,788 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:11:57,789 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:11:57,789 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:11:57,790 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:11:57,792 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:11:57,793 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:11:57,793 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:11:57,794 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:11:57,794 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:11:57,795 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:11:57,795 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:11:57,797 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:11:57,797 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:11:57,798 - WARNING - A connection with no parent: MedicalZone_3
+2024-10-14 13:12:45,727 - WARNING - A connection with no parent: Gampola
+2024-10-14 13:12:45,727 - WARNING - A connection with no parent: KandyCity
+2024-10-14 13:12:45,728 - WARNING - A connection with no parent: ResidentialZone_1
+2024-10-14 13:12:45,728 - WARNING - A connection with no parent: ResidentialZone_2
+2024-10-14 13:12:45,730 - WARNING - A connection with no parent: ResidentialZone_4
+2024-10-14 13:12:45,731 - WARNING - A connection with no parent: ResidentialZone_5
+2024-10-14 13:12:45,732 - WARNING - A connection with no parent: ResidentialZone_6
+2024-10-14 13:12:45,732 - WARNING - A connection with no parent: AgriculturalZone_1
+2024-10-14 13:12:45,735 - WARNING - A connection with no parent: AdministrativeZone_1
+2024-10-14 13:12:45,735 - WARNING - A connection with no parent: CommercialFinancialZone_1
+2024-10-14 13:12:45,736 - WARNING - A connection with no parent: CommercialFinancialZone_2
+2024-10-14 13:12:45,736 - WARNING - A connection with no parent: CommercialFinancialZone_3
+2024-10-14 13:12:45,737 - WARNING - A connection with no parent: EducationZone_1
+2024-10-14 13:12:45,737 - WARNING - A connection with no parent: EducationZone_2
+2024-10-14 13:12:45,738 - WARNING - A connection with no parent: EducationZone_3
+2024-10-14 13:12:45,739 - WARNING - A connection with no parent: MedicalZone_1
+2024-10-14 13:12:45,739 - WARNING - A connection with no parent: MedicalZone_2
+2024-10-14 13:12:45,739 - WARNING - A connection with no parent: MedicalZone_3
+2024-11-18 01:15:55,568 - INFO - Node Home_39 does not exist
+2024-11-18 01:19:27,927 - INFO - Node Home_30 does not exist
+2024-11-18 01:19:59,734 - INFO - Node Home_6 does not exist
+2024-11-18 01:21:03,679 - INFO - Node Home_14 does not exist
+2024-11-18 01:21:58,324 - INFO - Node Home_5 does not exist
+2024-11-18 08:42:56,914 - INFO - Node H does not exist
+2024-11-18 08:44:51,500 - INFO - Node H does not exist
+2024-11-18 08:45:15,278 - INFO - Node H does not exist
+2024-11-18 08:45:54,199 - INFO - Node H does not exist
+2024-11-24 15:56:44,646 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 15:56:44,647 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 15:56:44,650 - WARNING - Cannot create the child node: 
+2024-11-24 15:56:44,651 - WARNING - A connection with no parent: GampolsSub_2
+2024-11-24 15:56:44,656 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 15:56:44,665 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 15:56:44,684 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 15:56:44,686 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 15:56:44,689 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 15:56:44,693 - WARNING - Cannot create the child node: 
+2024-11-24 15:56:44,727 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 15:56:44,765 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 15:56:44,766 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 15:56:44,780 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 15:56:44,781 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 15:56:44,787 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 15:56:44,791 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 15:56:44,833 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 15:57:17,779 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 15:57:17,779 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 15:57:17,783 - WARNING - Cannot create the child node: 
+2024-11-24 15:57:17,784 - WARNING - A connection with no parent: GampolsSub_2
+2024-11-24 15:57:17,790 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 15:57:17,799 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 15:57:17,818 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 15:57:17,819 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 15:57:17,822 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 15:57:17,825 - WARNING - Cannot create the child node: 
+2024-11-24 15:57:17,856 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 15:57:17,888 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 15:57:17,889 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 15:57:17,901 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 15:57:17,902 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 15:57:17,906 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 15:57:17,909 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 15:57:17,945 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 15:58:35,074 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 15:58:35,075 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 15:58:35,080 - WARNING - Cannot create the child node: 
+2024-11-24 15:58:35,081 - WARNING - A connection with no parent: GampolsSub_2
+2024-11-24 15:58:35,087 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 15:58:35,097 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 15:58:35,119 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 15:58:35,121 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 15:58:35,124 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 15:58:35,127 - WARNING - Cannot create the child node: 
+2024-11-24 15:58:35,154 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 15:58:35,186 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 15:58:35,187 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 15:58:35,200 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 15:58:35,201 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 15:58:35,205 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 15:58:35,208 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 15:58:35,242 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 15:58:58,840 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 15:58:58,841 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 15:58:58,845 - WARNING - Cannot create the child node: 
+2024-11-24 15:58:58,845 - WARNING - A connection with no parent: GampolsSub_2
+2024-11-24 15:58:58,851 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 15:58:58,860 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 15:58:58,879 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 15:58:58,880 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 15:58:58,883 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 15:58:58,887 - WARNING - Cannot create the child node: 
+2024-11-24 15:58:58,914 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 15:58:58,946 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 15:58:58,947 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 15:58:58,960 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 15:58:58,960 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 15:58:58,964 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 15:58:58,967 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 15:58:59,001 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 15:59:07,979 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 15:59:07,980 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 15:59:07,983 - WARNING - Cannot create the child node: 
+2024-11-24 15:59:07,984 - WARNING - A connection with no parent: GampolsSub_2
+2024-11-24 15:59:07,989 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 15:59:08,000 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 15:59:08,020 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 15:59:08,021 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 15:59:08,024 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 15:59:08,027 - WARNING - Cannot create the child node: 
+2024-11-24 15:59:08,054 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 15:59:08,085 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 15:59:08,085 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 15:59:08,098 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 15:59:08,098 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 15:59:08,103 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 15:59:08,106 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 15:59:08,140 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 15:59:18,921 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 15:59:18,922 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 15:59:18,926 - WARNING - Cannot create the child node: 
+2024-11-24 15:59:18,927 - WARNING - A connection with no parent: GampolsSub_2
+2024-11-24 15:59:18,934 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 15:59:18,945 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 15:59:18,965 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 15:59:18,966 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 15:59:18,969 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 15:59:18,972 - WARNING - Cannot create the child node: 
+2024-11-24 15:59:18,998 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 15:59:19,033 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 15:59:19,033 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 15:59:19,047 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 15:59:19,047 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 15:59:19,051 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 15:59:19,055 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 15:59:19,089 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:01:17,442 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:01:17,443 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:01:17,447 - WARNING - Cannot create the child node: 
+2024-11-24 16:01:17,448 - WARNING - A connection with no parent: GampolsSub_2
+2024-11-24 16:01:17,454 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:01:17,464 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:01:17,484 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:01:17,485 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:01:17,488 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:01:17,491 - WARNING - Cannot create the child node: 
+2024-11-24 16:01:17,519 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:01:17,555 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:01:17,556 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:01:17,570 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:01:17,571 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:01:17,575 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:01:17,578 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:01:17,612 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:02:16,492 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:02:16,494 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:02:16,498 - WARNING - Cannot create the child node: 
+2024-11-24 16:02:16,499 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:02:16,505 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:02:16,515 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:02:16,535 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:02:16,536 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:02:16,539 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:02:16,542 - WARNING - Cannot create the child node: 
+2024-11-24 16:02:16,573 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:02:16,606 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:02:16,606 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:02:16,621 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:02:16,621 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:02:16,626 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:02:16,629 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:02:16,665 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:02:31,668 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:02:31,669 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:02:31,673 - WARNING - Cannot create the child node: 
+2024-11-24 16:02:31,674 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:02:31,680 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:02:31,691 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:02:31,720 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:02:31,723 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:02:31,728 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:02:31,733 - WARNING - Cannot create the child node: 
+2024-11-24 16:02:31,766 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:02:31,806 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:02:31,807 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:02:31,823 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:02:31,823 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:02:31,831 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:02:31,835 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:02:31,870 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:02:43,974 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:02:43,975 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:02:43,979 - WARNING - Cannot create the child node: 
+2024-11-24 16:02:43,979 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:02:43,985 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:02:43,994 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:02:44,013 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:02:44,014 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:02:44,017 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:02:44,021 - WARNING - Cannot create the child node: 
+2024-11-24 16:02:44,049 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:02:44,081 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:02:44,081 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:02:44,095 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:02:44,096 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:02:44,100 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:02:44,103 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:02:44,137 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:02:58,765 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:02:58,766 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:02:58,771 - WARNING - Cannot create the child node: 
+2024-11-24 16:02:58,772 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:02:58,778 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:02:58,790 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:02:58,813 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:02:58,815 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:02:58,818 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:02:58,822 - WARNING - Cannot create the child node: 
+2024-11-24 16:02:58,850 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:02:58,885 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:02:58,885 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:02:58,900 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:02:58,900 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:02:58,904 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:02:58,907 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:02:58,941 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:03:05,822 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:03:05,824 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:03:05,828 - WARNING - Cannot create the child node: 
+2024-11-24 16:03:05,829 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:03:05,836 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:03:05,849 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:03:05,877 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:03:05,880 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:03:05,884 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:03:05,889 - WARNING - Cannot create the child node: 
+2024-11-24 16:03:05,929 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:03:05,978 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:03:05,979 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:03:06,000 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:03:06,001 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:03:06,006 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:03:06,012 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:03:06,061 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:04:52,796 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:04:52,797 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:04:52,801 - WARNING - Cannot create the child node: 
+2024-11-24 16:04:52,802 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:04:52,807 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:04:52,817 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:04:52,837 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:04:52,838 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:04:52,841 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:04:52,845 - WARNING - Cannot create the child node: 
+2024-11-24 16:04:52,872 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:04:52,902 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:04:52,902 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:04:52,916 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:04:52,917 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:04:52,920 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:04:52,924 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:04:52,956 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:05:19,496 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:05:19,497 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:05:19,501 - WARNING - Cannot create the child node: 
+2024-11-24 16:05:19,502 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:05:19,508 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:05:19,519 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:05:19,540 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:05:19,542 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:05:19,545 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:05:19,548 - WARNING - Cannot create the child node: 
+2024-11-24 16:05:19,578 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:05:19,610 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:05:19,610 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:05:19,626 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:05:19,627 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:05:19,632 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:05:19,636 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:05:19,673 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:06:23,450 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:06:23,451 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:06:23,455 - WARNING - Cannot create the child node: 
+2024-11-24 16:06:23,456 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:06:23,462 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:06:23,472 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:06:23,491 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:06:23,493 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:06:23,496 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:06:23,499 - WARNING - Cannot create the child node: 
+2024-11-24 16:06:23,531 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:06:23,564 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:06:23,565 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:06:23,580 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:06:23,580 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:06:23,585 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:06:23,589 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:06:23,626 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:06:55,732 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:06:55,733 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:06:55,737 - WARNING - Cannot create the child node: 
+2024-11-24 16:06:55,738 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:06:55,744 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:06:55,753 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:06:55,774 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:06:55,776 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:06:55,779 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:06:55,783 - WARNING - Cannot create the child node: 
+2024-11-24 16:06:55,809 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:06:55,839 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:06:55,839 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:06:55,855 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:06:55,855 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:06:55,860 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:06:55,864 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:06:55,904 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:07:06,622 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:07:06,623 - WARNING - A connection with no parent: KandyCity_5
+2024-11-24 16:07:06,627 - WARNING - Cannot create the child node: 
+2024-11-24 16:07:06,628 - WARNING - A connection with no parent: GampolSub_2
+2024-11-24 16:07:06,633 - WARNING - A connection with no parent: EducationZone_4
+2024-11-24 16:07:06,645 - WARNING - A connection with no parent: EducationZone_13
+2024-11-24 16:07:06,666 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:07:06,667 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:07:06,670 - WARNING - A connection with no parent: AgriculturalZone_3
+2024-11-24 16:07:06,673 - WARNING - Cannot create the child node: 
+2024-11-24 16:07:06,699 - WARNING - A connection with no parent: CommercialFinancialZone_7
+2024-11-24 16:07:06,731 - WARNING - A connection with no parent: CommercialFinancialZone_18
+2024-11-24 16:07:06,732 - WARNING - A connection with no parent: CommercialFinancialZone_19
+2024-11-24 16:07:06,745 - WARNING - A connection with no parent: ResidentialZone_3
+2024-11-24 16:07:06,746 - WARNING - A connection with no parent: ResidentialZone_4
+2024-11-24 16:07:06,751 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-24 16:07:06,754 - WARNING - A connection with no parent: ResidentialZone_8
+2024-11-24 16:07:06,789 - WARNING - A connection with no parent: ResidentialZone_21
+2024-11-24 16:09:09,782 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-24 16:09:09,787 - WARNING - Cannot create the child node: 
+2024-11-24 16:09:09,823 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-24 16:09:09,824 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-24 16:09:09,830 - WARNING - Cannot create the child node: 
+2024-11-24 16:09:09,927 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-25 11:52:24,064 - WARNING - Cannot create the child node: ResidentialZone_2
+2024-11-25 11:52:24,070 - WARNING - Cannot create the child node: 
+2024-11-25 11:52:24,115 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-25 11:52:24,116 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 11:52:24,125 - WARNING - Cannot create the child node: 
+2024-11-25 11:52:24,219 - WARNING - A connection with no parent: ResidentialZone_6
+2024-11-25 11:53:13,082 - WARNING - Cannot create the child node: 
+2024-11-25 11:53:13,120 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-25 11:53:13,121 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 11:53:13,128 - WARNING - Cannot create the child node: 
+2024-11-25 12:01:29,207 - WARNING - Cannot create the child node: 
+2024-11-25 12:01:29,241 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-25 12:01:29,243 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 12:01:29,250 - WARNING - Cannot create the child node: 
+2024-11-25 12:01:43,125 - WARNING - Cannot create the child node: 
+2024-11-25 12:01:43,165 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-25 12:01:43,167 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 12:01:43,174 - WARNING - Cannot create the child node: 
+2024-11-25 12:02:43,931 - WARNING - Cannot create the child node: 
+2024-11-25 12:02:43,972 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-25 12:02:43,973 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 12:02:43,979 - WARNING - Cannot create the child node: 
+2024-11-25 12:06:02,326 - WARNING - Cannot create the child node: 
+2024-11-25 12:06:02,378 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-25 12:06:02,379 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 12:06:02,389 - WARNING - Cannot create the child node: 
+2024-11-25 12:08:32,430 - WARNING - Cannot create the child node: 
+2024-11-25 12:08:32,477 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-25 12:08:32,479 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 12:08:32,486 - WARNING - Cannot create the child node: 
+2024-11-25 12:49:03,225 - WARNING - Cannot create the child node: 
+2024-11-25 12:49:03,258 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-25 12:49:03,259 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 12:49:03,266 - WARNING - Cannot create the child node: 
+2024-11-25 12:49:11,442 - WARNING - Cannot create the child node: 
+2024-11-25 12:49:11,474 - WARNING - A connection with no parent: AdministrativeZone_3
+2024-11-25 12:49:11,475 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 12:49:11,482 - WARNING - Cannot create the child node: 
+2024-11-25 12:53:41,780 - WARNING - Cannot create the child node: 
+2024-11-25 12:53:41,812 - WARNING - A connection with no parent: AdministrativeZone_5
+2024-11-25 12:53:41,819 - WARNING - Cannot create the child node: 
+2024-11-25 12:54:53,365 - WARNING - Cannot create the child node: 
+2024-11-25 12:54:53,408 - WARNING - Cannot create the child node: 
+2024-11-25 13:01:01,138 - WARNING - Cannot create the child node: 
+2024-11-25 13:01:01,183 - WARNING - Cannot create the child node: 
+2024-11-25 13:01:13,560 - WARNING - Cannot create the child node: 
+2024-11-25 13:01:13,599 - WARNING - Cannot create the child node: 
+2024-11-25 13:02:22,223 - WARNING - Cannot create the child node: 
+2024-11-25 13:02:22,266 - WARNING - Cannot create the child node: 
+2024-11-25 13:03:33,160 - WARNING - Cannot create the child node: 
+2024-11-25 13:03:33,203 - WARNING - Cannot create the child node: 
+2024-11-25 13:04:23,184 - WARNING - Cannot create the child node: 
+2024-11-25 13:04:49,754 - WARNING - Cannot create the child node: 
+2024-11-25 13:05:14,560 - WARNING - Cannot create the child node: 
+2024-11-25 15:16:28,692 - INFO - Node Resturant does not exist
