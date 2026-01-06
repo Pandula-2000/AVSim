@@ -1,0 +1,11 @@
+p_class,encoding,sub_class,percentage,sub class en
+Student,st,Student_cluster0,100,Strings_st_cluster0
+Teacher,tc,Teacher_cluster1,100,Strings_tc_cluster1
+BankWorker,ba,BankWorker_cluster0,100,Strings_ba_cluster0
+Doctor,dc,Doctor_cluster0,100,Strings_dc_cluster0
+RetailShopWorker,rw,RetailShopWorker_cluster0,100,Strings_rw_cluster0
+SuperMarketWorker,sw,SuperMarketWorker_cluster3,50,Strings_sw_cluster3
+SuperMarketWorker,sw,SuperMarketWorker_cluster1,50,Strings_sw_cluster1
+Nurse,na,Nurse_cluster1,100,Strings_na_cluster1
+Farmer,fm,Farmer_cluster1,100,Strings_fm_cluster1
+GarmentAdmin,ga,GarmentAdmin_cluster1,100,Strings_ga_cluster1

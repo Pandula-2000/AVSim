@@ -1,0 +1,361 @@
+Start Time,End Time,Current Location,Next Locations
+0,5,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+45,50,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+144,149,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+376,381,ResidentialZone_6,['CommercialFinancialZone_2']
+465,470,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+539,544,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+613,618,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+687,692,ResidentialZone_2,['MedicalZone_3']
+20,25,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+65,70,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+164,169,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+396,401,ResidentialZone_6,['CommercialFinancialZone_2']
+485,490,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+559,564,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+633,638,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+707,712,ResidentialZone_2,['MedicalZone_3']
+40,45,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+85,90,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+184,189,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+416,421,ResidentialZone_6,['CommercialFinancialZone_2']
+505,510,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+579,584,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+653,658,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+727,732,ResidentialZone_2,['MedicalZone_3']
+60,65,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+105,110,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+204,209,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+436,441,ResidentialZone_6,['CommercialFinancialZone_2']
+525,530,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+599,604,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+673,678,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+747,752,ResidentialZone_2,['MedicalZone_3']
+80,85,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+125,130,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+224,229,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+456,461,ResidentialZone_6,['CommercialFinancialZone_2']
+545,550,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+619,624,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+693,698,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+767,772,ResidentialZone_2,['MedicalZone_3']
+100,105,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+145,150,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+244,249,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+476,481,ResidentialZone_6,['CommercialFinancialZone_2']
+565,570,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+639,644,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+713,718,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+787,792,ResidentialZone_2,['MedicalZone_3']
+120,125,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+165,170,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+264,269,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+496,501,ResidentialZone_6,['CommercialFinancialZone_2']
+585,590,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+659,664,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+733,738,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+807,812,ResidentialZone_2,['MedicalZone_3']
+140,145,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+185,190,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+284,289,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+516,521,ResidentialZone_6,['CommercialFinancialZone_2']
+605,610,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+679,684,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+753,758,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+827,832,ResidentialZone_2,['MedicalZone_3']
+160,165,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+205,210,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+304,309,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+536,541,ResidentialZone_6,['CommercialFinancialZone_2']
+625,630,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+699,704,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+773,778,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+847,852,ResidentialZone_2,['MedicalZone_3']
+180,185,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+225,230,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+324,329,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+556,561,ResidentialZone_6,['CommercialFinancialZone_2']
+645,650,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+719,724,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+793,798,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+867,872,ResidentialZone_2,['MedicalZone_3']
+200,205,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+245,250,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+344,349,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+576,581,ResidentialZone_6,['CommercialFinancialZone_2']
+665,670,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+739,744,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+813,818,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+887,892,ResidentialZone_2,['MedicalZone_3']
+220,225,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+265,270,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+364,369,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+596,601,ResidentialZone_6,['CommercialFinancialZone_2']
+685,690,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+759,764,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+833,838,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+907,912,ResidentialZone_2,['MedicalZone_3']
+240,245,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+285,290,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+384,389,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+616,621,ResidentialZone_6,['CommercialFinancialZone_2']
+705,710,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+779,784,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+853,858,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+927,932,ResidentialZone_2,['MedicalZone_3']
+260,265,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+305,310,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+404,409,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+636,641,ResidentialZone_6,['CommercialFinancialZone_2']
+725,730,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+799,804,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+873,878,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+947,952,ResidentialZone_2,['MedicalZone_3']
+280,285,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+325,330,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+424,429,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+656,661,ResidentialZone_6,['CommercialFinancialZone_2']
+745,750,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+819,824,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+893,898,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+967,972,ResidentialZone_2,['MedicalZone_3']
+300,305,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+345,350,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+444,449,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+676,681,ResidentialZone_6,['CommercialFinancialZone_2']
+765,770,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+839,844,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+913,918,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+987,992,ResidentialZone_2,['MedicalZone_3']
+320,325,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+365,370,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+464,469,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+696,701,ResidentialZone_6,['CommercialFinancialZone_2']
+785,790,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+859,864,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+933,938,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1007,1012,ResidentialZone_2,['MedicalZone_3']
+340,345,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+385,390,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+484,489,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+716,721,ResidentialZone_6,['CommercialFinancialZone_2']
+805,810,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+879,884,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+953,958,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1027,1032,ResidentialZone_2,['MedicalZone_3']
+360,365,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+405,410,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+504,509,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+736,741,ResidentialZone_6,['CommercialFinancialZone_2']
+825,830,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+899,904,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+973,978,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1047,1052,ResidentialZone_2,['MedicalZone_3']
+380,385,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+425,430,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+524,529,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+756,761,ResidentialZone_6,['CommercialFinancialZone_2']
+845,850,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+919,924,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+993,998,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1067,1072,ResidentialZone_2,['MedicalZone_3']
+400,405,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+445,450,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+544,549,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+776,781,ResidentialZone_6,['CommercialFinancialZone_2']
+865,870,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+939,944,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1013,1018,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1087,1092,ResidentialZone_2,['MedicalZone_3']
+420,425,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+465,470,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+564,569,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+796,801,ResidentialZone_6,['CommercialFinancialZone_2']
+885,890,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+959,964,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1033,1038,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1107,1112,ResidentialZone_2,['MedicalZone_3']
+440,445,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+485,490,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+584,589,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+816,821,ResidentialZone_6,['CommercialFinancialZone_2']
+905,910,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+979,984,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1053,1058,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1127,1132,ResidentialZone_2,['MedicalZone_3']
+460,465,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+505,510,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+604,609,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+836,841,ResidentialZone_6,['CommercialFinancialZone_2']
+925,930,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+999,1004,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1073,1078,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1147,1152,ResidentialZone_2,['MedicalZone_3']
+480,485,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+525,530,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+624,629,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+856,861,ResidentialZone_6,['CommercialFinancialZone_2']
+945,950,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1019,1024,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1093,1098,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1167,1172,ResidentialZone_2,['MedicalZone_3']
+500,505,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+545,550,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+644,649,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+876,881,ResidentialZone_6,['CommercialFinancialZone_2']
+965,970,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1039,1044,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1113,1118,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1187,1192,ResidentialZone_2,['MedicalZone_3']
+520,525,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+565,570,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+664,669,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+896,901,ResidentialZone_6,['CommercialFinancialZone_2']
+985,990,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1059,1064,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1133,1138,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1207,1212,ResidentialZone_2,['MedicalZone_3']
+540,545,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+585,590,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+684,689,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+916,921,ResidentialZone_6,['CommercialFinancialZone_2']
+1005,1010,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1079,1084,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1153,1158,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1227,1232,ResidentialZone_2,['MedicalZone_3']
+560,565,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+605,610,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+704,709,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+936,941,ResidentialZone_6,['CommercialFinancialZone_2']
+1025,1030,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1099,1104,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1173,1178,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1247,1252,ResidentialZone_2,['MedicalZone_3']
+580,585,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+625,630,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+724,729,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+956,961,ResidentialZone_6,['CommercialFinancialZone_2']
+1045,1050,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1119,1124,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1193,1198,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1267,1272,ResidentialZone_2,['MedicalZone_3']
+600,605,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+645,650,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+744,749,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+976,981,ResidentialZone_6,['CommercialFinancialZone_2']
+1065,1070,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1139,1144,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1213,1218,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1287,1292,ResidentialZone_2,['MedicalZone_3']
+620,625,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+665,670,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+764,769,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+996,1001,ResidentialZone_6,['CommercialFinancialZone_2']
+1085,1090,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1159,1164,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1233,1238,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1307,1312,ResidentialZone_2,['MedicalZone_3']
+640,645,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+685,690,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+784,789,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1016,1021,ResidentialZone_6,['CommercialFinancialZone_2']
+1105,1110,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1179,1184,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1253,1258,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1327,1332,ResidentialZone_2,['MedicalZone_3']
+660,665,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+705,710,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+804,809,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1036,1041,ResidentialZone_6,['CommercialFinancialZone_2']
+1125,1130,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1199,1204,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1273,1278,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1347,1352,ResidentialZone_2,['MedicalZone_3']
+680,685,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+725,730,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+824,829,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1056,1061,ResidentialZone_6,['CommercialFinancialZone_2']
+1145,1150,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1219,1224,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1293,1298,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1367,1372,ResidentialZone_2,['MedicalZone_3']
+700,705,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+745,750,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+844,849,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1076,1081,ResidentialZone_6,['CommercialFinancialZone_2']
+1165,1170,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1239,1244,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1313,1318,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1387,1392,ResidentialZone_2,['MedicalZone_3']
+720,725,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+765,770,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+864,869,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1096,1101,ResidentialZone_6,['CommercialFinancialZone_2']
+1185,1190,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1259,1264,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1333,1338,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1407,1412,ResidentialZone_2,['MedicalZone_3']
+740,745,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+785,790,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+884,889,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1116,1121,ResidentialZone_6,['CommercialFinancialZone_2']
+1205,1210,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1279,1284,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1353,1358,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1427,1432,ResidentialZone_2,['MedicalZone_3']
+760,765,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+805,810,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+904,909,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1136,1141,ResidentialZone_6,['CommercialFinancialZone_2']
+1225,1230,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1299,1304,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1373,1378,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1447,1452,ResidentialZone_2,['MedicalZone_3']
+780,785,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+825,830,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+924,929,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1156,1161,ResidentialZone_6,['CommercialFinancialZone_2']
+1245,1250,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1319,1324,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1393,1398,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1467,1472,ResidentialZone_2,['MedicalZone_3']
+800,805,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+845,850,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+944,949,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1176,1181,ResidentialZone_6,['CommercialFinancialZone_2']
+1265,1270,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1339,1344,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1413,1418,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1487,1492,ResidentialZone_2,['MedicalZone_3']
+820,825,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+865,870,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+964,969,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1196,1201,ResidentialZone_6,['CommercialFinancialZone_2']
+1285,1290,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1359,1364,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1433,1438,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1507,1512,ResidentialZone_2,['MedicalZone_3']
+840,845,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+885,890,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+984,989,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1216,1221,ResidentialZone_6,['CommercialFinancialZone_2']
+1305,1310,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1379,1384,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1453,1458,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1527,1532,ResidentialZone_2,['MedicalZone_3']
+860,865,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+905,910,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+1004,1009,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1236,1241,ResidentialZone_6,['CommercialFinancialZone_2']
+1325,1330,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1399,1404,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1473,1478,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1547,1552,ResidentialZone_2,['MedicalZone_3']
+880,885,MedicalZone_3,"['ResidentialZone_2', 'EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+925,930,ResidentialZone_2,"['EducationZone_3', 'ResidentialZone_6', 'CommercialFinancialZone_2']"
+1024,1029,EducationZone_3,"['ResidentialZone_6', 'CommercialFinancialZone_2']"
+1256,1261,ResidentialZone_6,['CommercialFinancialZone_2']
+1345,1350,CommercialFinancialZone_2,"['ResidentialZone_6', 'EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1419,1424,ResidentialZone_6,"['EducationZone_3', 'ResidentialZone_2', 'MedicalZone_3']"
+1493,1498,EducationZone_3,"['ResidentialZone_2', 'MedicalZone_3']"
+1567,1572,ResidentialZone_2,['MedicalZone_3']
