@@ -9,10 +9,13 @@
 ## 📖 Overview
 **AVSim** is a novel Agent-Based Modeling (ABM) framework designed to simulate the spread of **airborne** (e.g., COVID-19) and **vector-borne** (e.g., Dengue) diseases under realistic conditions. 
 
-Unlike traditional models that rely on synthetic mobility assumptions (which often fail to capture complex social dynamics), AVSim drives agent behavior using **real-world GPS traces**. By integrating rigorous data processing—specifically **DBSCAN** for location identification and **Spectral Clustering** for behavioral pattern recognition—AVSim generates high-fidelity, occupation-specific human mobility trajectories.
+![AVSim System Architecture](images/overview.png)
+*Figure 1: Overview of the proposed agent-based model structure, illustrating the key components: environment, vector-patch, transportation, agent simulation, and the two disease transmission models.*
+
+Unlike traditional models that rely on synthetic mobility assumptions (which often fail to capture complex social dynamics), AVSim drives agent behavior using **real-world GPS traces**. By integrating rigorous data processing, specifically **DBSCAN** for location identification and **Spectral Clustering** for behavioral pattern recognition, AVSim generates high-fidelity, occupation-specific human mobility trajectories.
 
 ### Key Features
-* **Real-World Mobility:** Agent movement is derived from GPS data collected from volunteers across 13 profession classes in Kandy, Sri Lanka.
+* **Real-World Mobility:** Agent movement is derived from GPS data collected from volunteers across 13 professional classes in Kandy, Sri Lanka.
 * **Dual Disease Modeling:**
     * **Airborne:** Proximity-based transmission (1m radius) with factors for age, hygiene, and vaccination.
     * **Vector-Borne:** Network-patch methodology modeling vector density, mosquito lifecycles, and environmental factors (temperature/rainfall).
