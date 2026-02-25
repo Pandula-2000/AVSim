@@ -38,7 +38,7 @@ The simulation is built on four primary components:
 ### Setup
 ```bash
 # Clone the repository
-git clone [https://github.com/Pandula-2000/AVSim.git](https://github.com/your-username/AVSim.git)
+git clone https://github.com/Pandula-2000/AVSim.git
 cd AVSim
 
 # Create a virtual environment (Optional but recommended)
