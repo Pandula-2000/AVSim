@@ -18,6 +18,8 @@ from disease_state_enum import Disease_State
 import folium
 from shapely.geometry import mapping
 import fast_tsp
+from functools import lru_cache
+
 # np.random.seed(42)
 
 # A node in the environment tree
@@ -508,33 +510,44 @@ class Environment:
 
         return [name for name in self.graph.nodes() if zoneName == name.split("_")[0]]
 
-    def get_exact_target_node(self, start_node, target_node, agent):
-        if agent._work_location and agent._work_location.split("_")[0] == target_node:
-            return agent._work_location
+    # def get_exact_target_node(self, start_node, target_node, agent):
+    #     if agent._work_location and agent._work_location.split("_")[0] == target_node:
+    #         return agent._work_location
             
-        if agent._init_location and agent._init_location.split("_")[0] == target_node:
-            return agent._init_location
+    #     if agent._init_location and agent._init_location.split("_")[0] == target_node:
+    #         return agent._init_location
 
-        visited = set()
-        queue = deque([start_node])
+    #     visited = set()
+    #     queue = deque([start_node])
 
-        while queue:
-            node = queue.popleft()
-            if node not in visited:
-                visited.add(node)
-                # Check if the node matches the target pattern
-                if target_node == node.split("_")[0]:
-                    return node
-                # Add neighbors to the queue
-                neighbors = set(self.graph.neighbors(node)) | set(self.graph.predecessors(node))
-                for neighbor in neighbors:
-                    if neighbor not in visited:
-                        queue.append(neighbor)
+    #     while queue:
+    #         node = queue.popleft()
+    #         if node not in visited:
+    #             visited.add(node)
+    #             # Check if the node matches the target pattern
+    #             if target_node == node.split("_")[0]:
+    #                 return node
+    #             # Add neighbors to the queue
+    #             neighbors = set(self.graph.neighbors(node)) | set(self.graph.predecessors(node))
+    #             for neighbor in neighbors:
+    #                 if neighbor not in visited:
+    #                     queue.append(neighbor)
         
-        # If target node is missing
-        # Return None for the path and set agent status to INACTIVE
-        Logger.log(f'Node {target_node} does not exist')
-        return None
+    #     # If target node is missing
+    #     # Return None for the path and set agent status to INACTIVE
+    #     Logger.log(f'Node {target_node} does not exist')
+    #     return None
+
+    def get_exact_target_node(self, start_node, target_node, agent):
+        """
+        Wrapper to call the cached function using agent attributes.
+        """
+        return self._cached_get_exact_target(
+            start_node, 
+            target_node, 
+            agent._work_location, 
+            agent._init_location
+        )
 
     def find_intermediate_nodes(self, start_city, end_city):
         
@@ -582,72 +595,96 @@ class Environment:
         return optimal_route
 
     def get_shortest_path(self, start_node, target_node, agent):
+        path_tuple = self._cached_get_shortest_path(
+            start_node, 
+            target_node, 
+            agent._work_location, 
+            agent._init_location
+        )
+        if path_tuple is None:
+            return None
+        return list(path_tuple)
+
+    @lru_cache(maxsize=100000)
+    def _cached_get_shortest_path(self, start_node, target_node, agent_work_loc, agent_init_loc):
         find_exact = False
 
         # -------------------------------------------------------
         if start_node.split("_")[0] == target_node:
-            return [start_node]
+            return (start_node,)
         # -------------------------------------------------------
 
-        if agent._work_location and agent._work_location.split("_")[0] == target_node:
-            target_node = agent._work_location
+        if agent_work_loc and agent_work_loc.split("_")[0] == target_node:
+            target_node = agent_work_loc
             find_exact = True
 
-        if agent._init_location and agent._init_location.split("_")[0] == target_node:
-            target_node = agent._init_location
+        if agent_init_loc and agent_init_loc.split("_")[0] == target_node:
+            target_node = agent_init_loc
             find_exact = True
 
-        # If target node is missing
-        # Return None for the path and set agent status to INACTIVE
-        if find_exact:
-            contains_node = target_node in self.graph.nodes()
-        else:
-            contains_node = any(target_node in node.split("_") for node in self.graph.nodes())
-
-        if not contains_node:
-            Logger.log(f'Node {target_node} does not exist')
-            return None
-
-        # If the start node is absent but the target node is present
-        # Return [] for the path and set agent status to ACTIVE
         if not self.graph.has_node(start_node):
             Logger.log(f'Node {start_node} does not exist')
-            return []
+            return ()
 
-        visited = set()
-        # Queue for BFS traversal with parent information
-        queue = [(start_node, None)]
-
-        parent_map = {}
+        visited = {start_node}
+        import itertools
+        from collections import deque
+        queue = deque([start_node])
+        parent_map = {start_node: None}
 
         while queue:
-            node, parent = queue.pop(0)
+            node = queue.popleft()
 
-            if node not in visited:
-                visited.add(node)
+            if (find_exact and node == target_node) or (not find_exact and node.split("_")[0] == target_node):
+                # Reconstruct the path from source to target
+                path = [node]
+                while parent_map[path[-1]] is not None:
+                    path.append(parent_map[path[-1]])
+                # ---------- Filter Upper nodes ----------------
+                path = [p for p in path if "_" in p]
+                # ----------------------------------------------
+                return tuple(path[::-1][1:])  # Reverse the path to get source to target
 
-                # Store parent information
-                parent_map[node] = parent
+            # Get neighbors ignoring edge directions
+            neighbors = itertools.chain(self.graph.successors(node), self.graph.predecessors(node))
 
-                if (find_exact and node == target_node) or (not find_exact and node.split("_")[0] == target_node):
-                    # Reconstruct the path from source to target
-                    path = [node]
-                    while parent_map[path[-1]] is not None:
-                        path.append(parent_map[path[-1]])
-                    # ---------- Filter Upper nodes ----------------
-                    path = [p for p in path if "_" in p]
-                    # ----------------------------------------------
-                    return path[::-1][1:]  # Reverse the path to get source to target
-
-                # Get neighbors of the current node ignoring edge directions
-                neighbors = set(self.graph.neighbors(node)) | set(self.graph.predecessors(node))
-
-                # Enqueue neighbors that haven't been visited
-                for neighbor in neighbors:
-                    if neighbor not in visited:
-                        queue.append((neighbor, node))
+            for neighbor in neighbors:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    parent_map[neighbor] = node
+                    queue.append(neighbor)
 
         # If target node is not reachable from source
+        return None
+
+    @lru_cache(maxsize=100000)
+    def _cached_get_exact_target(self, start_node, target_node, agent_work_loc, agent_init_loc):
+        """
+        Internal cached BFS logic. Moved from get_exact_target_node.
+        """
+        if agent_work_loc and agent_work_loc.split("_")[0] == target_node:
+            return agent_work_loc
+            
+        if agent_init_loc and agent_init_loc.split("_")[0] == target_node:
+            return agent_init_loc
+
+        visited = {start_node}
+        import itertools
+        from collections import deque
+        queue = deque([start_node])
+
+        while queue:
+            node = queue.popleft()
+            
+            if target_node == node.split("_")[0]:
+                return node
+            
+            neighbors = itertools.chain(self.graph.successors(node), self.graph.predecessors(node))
+            for neighbor in neighbors:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    queue.append(neighbor)
+        
         return None
 
     # NOTE: -------------------Vector Borne Related-------------------------------------------------

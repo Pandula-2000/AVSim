@@ -950,7 +950,8 @@ def get_agent_tot(env_object):
     agent_per_home = {}
     # Note: Consider removing the dic later!!!
     for home in home_lst:
-        n = random.randint(3, 5)
+        # n = random.randint(2, 5)
+        n = random.randint(4, 7)
         # n = 2 ##### Fixme: Temporarily set to a constant. Change before proper execution.
         agent_per_home[home] = n
         env_object.increment_people_count(home, n)
@@ -1031,8 +1032,10 @@ def assgn_homes(env_object, home_cnts: dict, adult_agents: dict, child_agents: d
         if (home_cnts_ad == {}) or (adult_agents_cp == {}):
             break  # Relevant error message at end of loop
 
-        adult_per_home = 2  # Fixme:  Currently a constant. But could use random number in a range 1-4.
+        # adult_per_home = 2  # Fixme:  Currently a constant. But could use random number in a range 1-4.
         # Also should be less than capacity of the home. Currently ok as manually set.
+
+        adult_per_home = random.randint(2, 4)
 
         for i in range(adult_per_home):
             if (adult_agents_cp == {}):

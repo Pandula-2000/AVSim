@@ -1,15 +1,15 @@
-simulation_days: 5
-infect_random: true
-percentage_of_agents_to_infect: 0.02
+bus_max_risk: 0.1
 classes_to_infect:
-  - Student
-step_disease_frequency: 5
-bus_max_risk: 0.3
-location_max_risk: 0.5
+- Student
+infect_random: true
+location_max_risk: 0.3
+pandemic_detection_threshold: 0.1
+percentage_of_agents_to_infect: 0.0003
+quarantine_agents: true
+quarantine_by_class: false
+quarantine_by_pcr: false
 radius_of_infection: 1
 run_vaccine: false
-quarantine_agents: true
-quarantine_by_pcr: false
-quarantine_by_class: true
-pandemic_detection_threshold: 0.1
-simulation_name: Quarantine_TEST_1
+simulation_days: 100
+simulation_name: Quarantine_TEST_4
+step_disease_frequency: 5

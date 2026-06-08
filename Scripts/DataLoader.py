@@ -82,18 +82,14 @@ class Loader:
     sub_prob_directory_path = Path(f"{data_dir}/Clustered Statistics/Clustered Probability Matrices")
     sub_std_directory_path = Path(f"{data_dir}/Clustered Statistics/Clustered Stay Duration Matrices")
 
-    # class_encodings = my_dict = dict(zip(pd.read_csv(f"{data_dir}/person_classes_test.csv")['p_class'].values.tolist(),
-    #                                      pd.read_csv(f"{data_dir}/person_classes_test.csv")['encoding'].values.tolist()))
-
-    class_encodings = my_dict = dict(zip(pd.read_csv(f"{data_dir}/person_classes_test.csv")['encoding'].values.tolist(),
-                                         pd.read_csv(f"{data_dir}/person_classes_test.csv")['p_class'].values.tolist()))
-
+    _df_person_classes = pd.read_csv(f"{data_dir}/person_classes_test.csv")
+    class_encodings = dict(zip(_df_person_classes['encoding'], _df_person_classes['p_class']))
     classes = list(class_encodings.values())
 
     vaccine_data_dict = LoadVaccineData(f"{data_dir}/VaccinePlan.xlsx")
     # ------------------NOTE: For mario. ---------------------------------
-    age_based_susceptibilities = dict(zip(pd.read_excel(f"{data_dir}/Age_based_immunity_old.xlsx")['Age class'].values.tolist(),
-                                                    pd.read_excel(f"{data_dir}/Age_based_immunity_old.xlsx")['Immunity'].values.tolist()))
+    _df_age = pd.read_excel(f"{data_dir}/Age_based_immunity_old.xlsx")
+    age_based_susceptibilities = dict(zip(_df_age['Age class'], _df_age['Immunity']))
     ### FIXME: Loading in this form is unnecessary. Delete?? : For Pandula
     # --------------------------------------------------------------------
     # State transition timer parameters
@@ -135,7 +131,7 @@ class Loader:
                 "Agent Sub Classes test": "person_sub_classes_test.csv",
                 "Location Environment": "LocationEnv.xlsx",
                 "Location Classes": "location_classes.csv",
-                "Node Environment": "NodeEnv.xlsx",
+                "Node Environment": "NodeEnv_V5.xlsx",
                 "Bus Halt Plan": "bushaltplan.csv",
                 "Location Risk Factor": "location_risk_factor.csv",
                 "Public Transport Plan": "PublicTransportPlan.csv",
@@ -148,14 +144,6 @@ class Loader:
                         "Public Transport Plan", "Event Plan", "Vaccine Plan"]
 
     simData = {}
-
-    for name, file in name_to_path.items():
-        if '.xlsx' in file:
-            simData[name] = pd.read_excel(f"{data_dir}/{file}")
-        elif '.csv' in file:
-            simData[name] = pd.read_csv(f"{data_dir}/{file}")
-    
-    # print(simData['Agent Classes'])
 
     @classmethod
     def init_probabilities(cls, **kwargs):
@@ -193,59 +181,61 @@ class Loader:
                 # print(cls.sub_stdMat[sub_clss])
 
     @staticmethod
+    def _cached_load(file, **kwargs):
+        # Use string representation of kwargs to distinguish loads with headers, etc.
+        try:
+            key = file + str(kwargs)
+        except Exception:
+            key = None
+
+        if key and key in Loader.simData:
+            return Loader.simData[key].copy()
+
+        file_path = f"{Loader.data_dir}/{file}"
+        pkl_path = file_path + ".pkl"
+        
+        import os, pickle
+        # If pickle exists and is newer than the source file, load it directly!
+        if os.path.exists(pkl_path) and os.path.exists(file_path) and os.path.getmtime(pkl_path) > os.path.getmtime(file_path):
+            with open(pkl_path, 'rb') as f:
+                df = pickle.load(f)
+        else:
+            if '.xlsx' in file:
+                df = pd.read_excel(file_path, **kwargs)
+            elif '.csv' in file:
+                df = pd.read_csv(file_path, **kwargs)
+            else:
+                raise FileNotFoundError(f"Unsupported file format: {file}")
+            
+            # Save to pickle for blazing fast future loads
+            try:
+                with open(pkl_path, 'wb') as f:
+                    pickle.dump(df, f)
+            except Exception:
+                pass
+        
+        if key:
+            Loader.simData[key] = df
+            return df.copy()
+        return df
+
+    @staticmethod
     def getSim(file, **kwargs):
-        if '.xlsx' in file:
-            return pd.read_excel(f"{Loader.data_dir}/{file}", **kwargs)
-        elif '.csv' in file:
-            return pd.read_csv(f"{Loader.data_dir}/{file}", **kwargs)
+        return Loader._cached_load(file, **kwargs)
 
     @staticmethod
     def getSim2_new(data_name: data_names, **kwargs):
-        
-        if data_name in Loader.simData.keys():
-            
-            data_file = Loader.simData[data_name]
-            return data_file
-        
-        else:
-            print(f"File not found in dictionary for data_name: {data_name}")
-
-            file = data_name
-
-            try:
-                if '.xlsx' in file:
-                    return pd.read_excel(f"{Loader.data_dir}/{file}", **kwargs)
-                elif '.csv' in file:
-                    return pd.read_csv(f"{Loader.data_dir}/{file}", **kwargs)
-            
-            except:
-                raise FileNotFoundError(f"File not found: {file}")
+        return Loader.getSim2(data_name, **kwargs)
 
     @staticmethod
     def getSim2(data_name: data_names, **kwargs):
-        
-        if data_name in Loader.name_to_path.keys():
-            
+        if data_name in Loader.name_to_path:
             file = Loader.name_to_path[data_name]
-        
-            if '.xlsx' in file:
-                return pd.read_excel(f"{Loader.data_dir}/{file}", **kwargs)
-            elif '.csv' in file:
-                return pd.read_csv(f"{Loader.data_dir}/{file}", **kwargs)
-        
         else:
             print(f"File not found in dictionary for data_name: {data_name}")
-
             file = data_name
-
-            try:
-                if '.xlsx' in file:
-                    return pd.read_excel(f"{Loader.data_dir}/{file}", **kwargs)
-                elif '.csv' in file:
-                    return pd.read_csv(f"{Loader.data_dir}/{file}", **kwargs)
             
-            except:
-                raise FileNotFoundError(f"File not found: {file}")
+        return Loader._cached_load(file, **kwargs)
 
 
     @classmethod
@@ -390,9 +380,6 @@ def get_sub_cls_names_test(cluster):
             updated_files.append(middle_part)
     
     return updated_files
-
-
-
 
 
 

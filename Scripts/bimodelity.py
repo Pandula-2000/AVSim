@@ -24,15 +24,17 @@ def getNextLocation(df, time):
     :param time : The time stamp for which the possible visit location is generated.
     :return     : Possible visit location.
     """
-    location = None
-    pdf = df[time]
+    pdf = df[time].values.astype(float)
     cdf = np.cumsum(pdf)
     random_Num = np.random.rand()
-    # print(random_Num)
-    for i in range(len(cdf)):
-        if random_Num <= cdf[i]:
-            location = df["Locations"][i]
-            break
+    
+    idx = np.searchsorted(cdf, random_Num)
+    locations = df["Locations"].values
+    if idx < len(locations):
+        location = locations[idx]
+    else:
+        location = locations[-1]
+
     # FIXME: REMOVE _home
     if location == "_home":
         return 'Home'
@@ -42,10 +44,6 @@ def getNextLocation(df, time):
         return 'ResidentialZone'
     else:
         return location
-    # return location
-
-
-
 
 
 def getStayDuration(df, Location):
@@ -56,19 +54,19 @@ def getStayDuration(df, Location):
     :param Location : The current location of the agent.
     :return         : How much time the agent is going to spend at the given location.
     """
-    stayTime = None
-    pdf = df[df['Locations'] == Location]
-    cdf = pdf.iloc[:, 1:].cumsum(axis=1)
-    # print(Location)
-    # print(cdf)
+    locations = df['Locations'].values
+    matches = np.where(locations == Location)[0]
+    if len(matches) == 0:
+        return None
+    
+    vals = df.iloc[matches[0], 1:].values.astype(float)
+    cdf = np.cumsum(vals)
     random_Num = np.random.rand()
-    # print(random_Num)
-    for i in range(1, 1441):
-        # print(cdf[i])
-        if random_Num <= cdf[i].values[0]:
-            stayTime = i
-            # print("Stay ",stayTime)
-            break
+    
+    stayTime = int(np.searchsorted(cdf, random_Num)) + 1
+    if stayTime > len(cdf):
+        stayTime = len(cdf)
+        
     return stayTime
 
 
@@ -79,7 +77,7 @@ def get_probability(time, loc, data_frame):
     :param data_frame   : Location column as row index (apply df.set_index('Locations', inplace=True) before using this function)
     """
 
-    prob = data_frame.loc[loc, time]
+    prob = data_frame.at[loc, time]
     return prob
 
 
@@ -91,7 +89,7 @@ def get_probability_v2(time, loc, data_frame):
     :param data_frame:
     :return:
     """
-    prob = data_frame.loc[loc, time]
+    prob = data_frame.at[loc, time]
     return prob
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -159,39 +157,37 @@ def getNextLocationV2(df, time, conditioned_location):
     :param conditioned_location : The location from which the agent is conditioned to move.
     :return                     : Possible visit location.
     """
-    location = None
-    locations = list(df["Locations"])
-    df_copy = df.copy()
-    df_copy.set_index('Locations', inplace=True)
-
+    time_probs = df[time].values.astype(float)
+    locations_arr = df["Locations"].values
+    
     if conditioned_location == 'Home':
-        prob_conditioned_location = df_copy.at[conditioned_location, time] + df_copy.at['_w_home', time]
-        df_copy.drop(conditioned_location, inplace=True)
-        df_copy.drop('_w_home', inplace=True)
-        locations.remove(conditioned_location)
-        locations.remove('_w_home')
+        cond_mask = (locations_arr == 'Home') | (locations_arr == '_w_home')
+        prob_conditioned = np.sum(time_probs[cond_mask])
     else:
-        prob_conditioned_location = df_copy.at[conditioned_location, time]
-        df_copy.drop(conditioned_location, inplace=True)
-        locations.remove(conditioned_location)
-
-    pdf = df_copy[time]/(1-prob_conditioned_location)
-    # print(pdf)
-    cdf = list(np.cumsum(pdf))
-    # print(cdf)
-    # print(locations)
-
+        cond_mask = (locations_arr == conditioned_location)
+        prob_conditioned = np.sum(time_probs[cond_mask])
+        
+    valid_mask = ~cond_mask
+    valid_locations = locations_arr[valid_mask]
+    valid_probs = time_probs[valid_mask]
+    
+    if prob_conditioned >= 1.0 or np.sum(valid_probs) == 0:
+        valid_probs = np.ones(len(valid_probs)) / len(valid_probs)
+    else:
+        valid_probs = valid_probs / (1.0 - prob_conditioned)
+        
+    cdf = np.cumsum(valid_probs)
     random_Num = np.random.rand()
-    # print(random_Num, time)
-    for i in range(len(cdf)):
-        # print(cdf[i])
-        if random_Num < cdf[i]:
-            # print(locations[i])
-            location = locations[i]
-            if location=="_w_home":
-                return 'Home'
-            else:
-                return location
+    
+    idx = np.searchsorted(cdf, random_Num)
+    if idx < len(valid_locations):
+        location = valid_locations[idx]
+    else:
+        location = valid_locations[-1]
+        
+    if location == "_w_home":
+        return 'Home'
+    return location
 
 
 def generateTimeTableV2(env, agent, data_loader=Loader, start_time=5, end_time=21, step=20, week_end_step=60):
@@ -461,6 +457,73 @@ def initTimeTables(env, Agents: list, sim_events: bool = False, writer=None):
         writer.write("\n")
     
     return None
+
+import random
+
+def generateTimeTableRandom(env, agent, start_time=5, end_time=19):
+    """
+    Ablation Study: Generates a daily schedule using purely uniform random 
+    location selection and uniform random stay durations.
+    """
+    timetable = [[], []]
+    t = start_time * 60
+    t_end = end_time * 60
+
+    init_loc = agent.get_init_loc()
+    curr_loc = init_loc
+
+    # Fetch all accessible zones to sample uniformly from
+    all_zones = env.get_all_zones()
+
+    while t < t_end:
+        # 1. Uniformly sample the next location (ensure it differs from curr_loc)
+        valid_destinations = [zone for zone in all_zones if zone != curr_loc]
+        next_loc = random.choice(valid_destinations)
+        
+        # 2. Uniformly sample stay duration (bounded 30 to 180 minutes)
+        stay = random.randint(30, 180)
+
+        # Truncate stay if it exceeds the daily end time
+        if t + stay >= t_end:
+            stay = t_end - t
+            timetable[0].append(next_loc)
+            timetable[1].append((t, stay))
+            t += stay
+            break
+
+        timetable[0].append(next_loc)
+        timetable[1].append((t, stay))
+        
+        t += stay
+        curr_loc = next_loc
+
+    # 3. Force return home at the end of the day to satisfy routing constraints
+    timetable[0].append(init_loc)
+    timetable[1].append((t_end, 1440 - t_end))
+
+    return timetable
+
+
+def initTimeTablesRandom(env, Agents: list, writer=None):
+    """
+    Ablation Study: Binds the random uniform timetables to all agents.
+    """
+    if writer is not None:
+        writer.write(f"======================= Random Uniform Time Tables for day {Time.get_DAY()} ====================================\n")
+
+    for agent in Agents:
+        # Bypass generateTimeTableV2 entirely
+        tt = generateTimeTableRandom(env, agent, start_time=5, end_time=19)
+        agent.set_timeTable(tt)
+
+        if writer is not None:
+            writer.write(f"Agent {agent.get_agent_name()} >> {agent.get_timeTable()}\n")
+    
+    if writer is not None:
+        writer.write("\n")
+    
+    return None
+
 
 
 def checkEvents():

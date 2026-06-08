@@ -24,8 +24,9 @@ def load_config(config_path="config.yaml"):
     with open(config_path, 'r') as f:
         return yaml.safe_load(f)
 
-def setup_directories(sim_name, current_date):
-    save_path = Path(f"../Results/{sim_name}_{current_date}")
+def setup_directories(sim_name, current_date, current_time):
+    # save_path = Path(f"../Results/{sim_name}_{current_date}_{current_time}")
+    save_path = Path(f"../Results/{sim_name}")
     mobility_path = save_path.joinpath('Mobility')
     pandemic_path = save_path.joinpath('Pandemic')
     
@@ -91,7 +92,7 @@ def main():
     Loader.pandemic_detection_threshold = config['pandemic_detection_threshold']
 
     # Setup Paths
-    save_path, mobility_path, pandemic_path = setup_directories(sim_name, current_date)
+    save_path, mobility_path, pandemic_path = setup_directories(sim_name, current_date, current_time)
     airborne_disease_spread_fig_path = pandemic_path.joinpath('Air Borne Disease Spread.png')
 
     # Initialize Printers
@@ -222,7 +223,9 @@ def main():
 
         plot_simulation_results(state_counts_per_day, sim_days, airborne_disease_spread_fig_path)
 
-        print(f"\n--- Executed in {(time.time() - start_time):.2f} seconds ---")
+        exec_time = time.time() - start_time
+        print(f"\n--- Executed in {exec_time:.2f} seconds ---")
+        general_info_writer.write(f"\n--- Executed in {exec_time:.2f} seconds ---\n")
 
     finally:
         person_trajectory_printer.close_workbook()
