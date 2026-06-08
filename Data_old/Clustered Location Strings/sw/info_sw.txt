@@ -1,0 +1,6 @@
+Sigma = 6.2, Self Similarity(SS) = 1
+
+Strings_sw_cluster0.xlsx : Morning to Night shifts
+Strings_sw_cluster1.xlsx : Afternoon to Night shift
+Strings_sw_cluster2.xlsx : Works Morning to Afternoon & Evening to Night with a break inbetween. Also includes holiday behaviour
+Strings_sw_cluster3.xlsx : Morning to Evening shifts

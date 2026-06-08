@@ -1,0 +1,4 @@
+Sigma = 6.6, Self Similarity(SS) = 1
+
+Strings_fm_cluster0.xlsx : Works mainly around Home
+Strings_fm_cluster1.xlsx : Works at an Agricultural Zone

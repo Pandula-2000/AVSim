@@ -1,0 +1,4 @@
+Sigma = 6.1, Self Similarity(SS) = 1
+
+Strings_rw_cluster0.xlsx : Frequent transitions between home, retail shops, and medical zones, showing a varied daily routine.
+Strings_rw_cluster1.xlsx : Predominant stay-at-home pattern, with occasional brief visits to retail shops or other zones.

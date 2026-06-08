@@ -1,0 +1,7 @@
+Sigma = 4.5, Self Similarity(SS) = 1
+
+Strings_dc_cluster0.xlsx : Normal behaviour
+Strings_dc_cluster1.xlsx : Night to Evenings shift
+Strings_dc_cluster2.xlsx : Night to Morning shift
+Strings_dc_cluster3.xlsx : Weekend/Holiday behaviour
+Strings_dc_cluster4.xlsx : Night shift + works at a school

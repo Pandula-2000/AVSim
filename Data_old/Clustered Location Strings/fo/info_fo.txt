@@ -1,0 +1,4 @@
+Sigma = 5.3, Self Similarity(SS) = 1
+
+Strings_fo_cluster0.xlsx : Non-work related behaviour
+Strings_fo_cluster1.xlsx : Work related behaviour

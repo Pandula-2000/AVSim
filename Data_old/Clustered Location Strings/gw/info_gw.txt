@@ -1,0 +1,4 @@
+Sigma = 14.9, Self Similarity(SS) = 1
+
+Strings_gw_cluster0.xlsx : Has to travel to the Garment
+Strings_gw_cluster1.xlsx : Lives in/close to the Garment

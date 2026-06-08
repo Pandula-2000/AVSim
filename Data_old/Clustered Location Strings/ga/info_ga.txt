@@ -1,0 +1,4 @@
+Sigma = 9.0, Self Similarity(SS) = 1
+
+Strings_ga_cluster0.xlsx : Weekend/holiday behaviour
+Strings_ga_cluster1.xlsx : Normal work routine

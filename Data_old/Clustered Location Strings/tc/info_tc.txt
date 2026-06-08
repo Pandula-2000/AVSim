@@ -1,0 +1,5 @@
+Sigma = 8.8, Self Similarity(SS) = 1
+
+Strings_tc_cluster0.xlsx : Teacher lives in or closeby to school premises
+Strings_tc_cluster1.xlsx : Normal teacher behaviour
+Strings_tc_cluster2.xlsx : Weekend/holiday behaviour

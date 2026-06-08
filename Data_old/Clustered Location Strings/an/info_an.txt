@@ -1,0 +1,5 @@
+Sigma = 6.3, Self Similarity(SS) = 1
+
+Strings_an_cluster0.xlsx : Works mainly close to Home
+Strings_an_cluster1.xlsx : Lives and works in the Agricultural Zone
+Strings_an_cluster2.xlsx : Stays at home and goes to a Agricultural Zone to work

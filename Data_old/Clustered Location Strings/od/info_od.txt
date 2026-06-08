@@ -1,0 +1,6 @@
+Sigma = 6.2, Self Similarity(SS) = 1
+
+Strings_od_cluster0.xlsx :
+Strings_od_cluster1.xlsx :
+Strings_od_cluster2.xlsx :
+Strings_od_cluster3.xlsx :

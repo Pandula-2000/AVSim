@@ -1,0 +1,4 @@
+Sigma = 6.8, Self Similarity(SS) = 1
+
+Strings_ba_cluster0.xlsx : Normal work behaviour
+Strings_ba_cluster1.xlsx : Weekend/Holiday behaviour

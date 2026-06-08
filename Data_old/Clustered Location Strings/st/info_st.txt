@@ -1,0 +1,5 @@
+Sigma = 8.3, Self Similarity(SS) = 1
+
+Strings_st_cluster0.xlsx : Normal behaviour of student coming from Home
+Strings_st_cluster1.xlsx : Weekend/Holiday behaviour with irregular school goings.
+Strings_st_cluster2.xlsx : Hostel student

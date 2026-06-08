@@ -1,0 +1,4 @@
+Sigma = 5.4, Self Similarity(SS) = 1
+
+Strings_mp_cluster0.xlsx : Most of work is done whilst travelling
+Strings_mp_cluster1.xlsx : Works at a Medical Zone

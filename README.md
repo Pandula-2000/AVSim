@@ -19,7 +19,10 @@ Unlike traditional models that rely on synthetic mobility assumptions (which oft
 * **Dual Disease Modeling:**
     * **Airborne:** Proximity-based transmission (1m radius) with factors for age, hygiene, and vaccination.
     * **Vector-Borne:** Network-patch methodology modeling vector density, mosquito lifecycles, and environmental factors (temperature/rainfall).
+* **Interactive Output Dashboard:** A built-in Streamlit web app (`dashboard.py`) to visualize epidemiological SEIR curves, geographic contact hotspots, individual agent Gantt charts, and an interactive Simulation Runner.
 * **Granular Behavior:** Unsupervised clustering uncovers latent behavioral subgroups (e.g., day-shift vs. night-shift doctors).
+* **Ablation Studies:** Test alternative mobility hypotheses like uniform random routing via `main_randomU.py`.
+* **High Performance:** Heavily optimized core modules (caching, lazy-loading DataFrames, $O(1)$ pathfinding) for rapid execution.
 * **Hierarchical Environment:** A tree-based geographical model (District $\to$ City $\to$ Functional Zone) combined with a functional public transport system (Inter/Intra-city buses).
 
 ## 🏗️ System Architecture
@@ -48,8 +51,21 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-## Usage
+## 🚀 Usage
+
+### 1. Run the Simulation
+Execute the primary simulation:
+```bash
+cd Scripts
 python main.py
+```
+*Note: To run the ablation study with purely uniform random timetables, execute `python main_randomU.py` instead.*
+
+### 2. Output Analysis Dashboard
+Launch the interactive web dashboard to view epidemiology charts, edit `config.yaml`, and stream new simulations live:
+```bash
+cd Scripts
+streamlit run dashboard.py
 ```
 
 ## Events

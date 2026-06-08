@@ -1,0 +1,7 @@
+Sigma = 5.7, Self Similarity(SS) = 1
+
+Strings_na_cluster0.xlsx : This nurse spends a lot of time at the hospital, especially during late hours
+Strings_na_cluster1.xlsx : Predominantly stationed at home with day time shifts at the hospital
+Strings_na_cluster2.xlsx : Primarily at the hospital during daylight hours
+Strings_na_cluster3.xlsx : Balance between home and hospital duties
+Strings_na_cluster4.xlsx : Predominantly stationed at home

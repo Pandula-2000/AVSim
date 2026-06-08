@@ -1,0 +1,4 @@
+Sigma = 6.9, Self Similarity(SS) = 1
+
+Strings_sr_cluster0.xlsx : Normal behaviour
+Strings_sr_cluster1.xlsx : Just one agent with Holiday/trip (outlier)

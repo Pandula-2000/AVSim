@@ -1,0 +1,5 @@
+p_class,encoding,sub_class,percentage,sub class en
+Student,st,Student_cluster0,100,Strings_st_cluster0
+Teacher,tc,Teacher_cluster1,100,Strings_tc_cluster1
+BankWorker,ba,BankWorker_cluster0,100,Strings_ba_cluster0
+Doctor,dc,Doctor_cluster0,100,Strings_dc_cluster0
