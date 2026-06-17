@@ -13,7 +13,7 @@ import folium
 from streamlit_folium import st_folium
 
 # --- Streamlit Page Config ---
-st.set_page_config(page_title="AVSim Output Dashboard", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="AVSim", layout="wide", initial_sidebar_state="expanded")
 
 # IMPORTANT: Every Plotly chart natively supports downloading the visual as a PNG via the camera icon 
 # in the modebar. We are explicitly enabling it in the config dictionaries below. 
@@ -26,7 +26,7 @@ def load_data(sim_dir):
     pandemic_dir = os.path.join(sim_dir, "Pandemic")
     mobility_dir = os.path.join(sim_dir, "Mobility")
     
-    # 1. Epidemic Curve
+    # 1. Epidemic Curve 
     try:
         state_counts_path = os.path.join(pandemic_dir, "State_counts_for_each_day.txt")
         with open(state_counts_path, 'r') as f:
@@ -133,7 +133,26 @@ def get_centroid(points):
     return (avg_lat, avg_lon)
 
 def main():
-    st.title("🦠 AVSim Output Dashboard")
+    st.sidebar.title("Navigation")
+    page = st.sidebar.radio("Go to", ["Home", "Dashboard"])
+    
+    if page == "Home":
+        st.title("🏠 Welcome to AVSim")
+        st.markdown("""
+**AVSim** is an advanced Agent-based Viral Simulation framework designed to model the spread of infectious diseases across complex urban environments. 
+
+### 🚀 Key Features
+- 📊 **Epidemiology Analytics**: Track SEIR states (Susceptible, Exposed, Infected, Recovered, Dead) over time.
+- 🤝 **Contact Tracing**: Identify hot spots and analyze contact volumes between agents.
+- 👤 **Individual Agent View**: Deep dive into individual agent trajectories and daily schedules.
+- ⚙️ **Simulation Runner**: Configure parameters and launch new simulations directly from the web interface.
+- 🗺️ **Environment Map**: Visualize the geographical layout and zoning of your simulation.
+
+To get started, select **Dashboard** from the sidebar on the left!
+        """)
+        return
+
+    st.title("🦠 AVSim Dashboard")
     
     st.sidebar.header("Data Selection")
     results_base = "../Results"
@@ -233,21 +252,40 @@ def main():
                                 loc_coords[str(row[0])] = centroid
                     
                     loc_counts = df_c['Location'].value_counts().to_dict()
+                    
+                    if loc_counts:
+                        counts_series = pd.Series(list(loc_counts.values()))
+                        q20 = counts_series.quantile(0.20)
+                        q40 = counts_series.quantile(0.40)
+                        q60 = counts_series.quantile(0.60)
+                        q80 = counts_series.quantile(0.80)
+                    else:
+                        q20 = q40 = q60 = q80 = 0
+                    
+                    def get_hotspot_color(count):
+                        if count <= q20: return '#0000FF' # Blue
+                        elif count <= q40: return '#00FFFF' # Cyan
+                        elif count <= q60: return '#00FF00' # Green
+                        elif count <= q80: return '#FFFF00' # Yellow
+                        else: return '#FF0000' # Red
+                        
                     for loc, count in loc_counts.items():
                         if loc in loc_coords:
                             centroid = loc_coords[loc]
                             valid_points.append(centroid)
+                            marker_color = get_hotspot_color(count)
                             folium.CircleMarker(
                                 location=centroid,
                                 radius=min(max(count, 5), 30),
                                 popup=f"{loc}: {count} contacts",
-                                color="red",
+                                color=marker_color,
                                 fill=True,
-                                fill_color="red"
+                                fill_color=marker_color,
+                                fill_opacity=0.8
                             ).add_to(m2)
                     if valid_points:
                         m2.fit_bounds(valid_points)
-                    st_folium(m2, width=800, height=400, returned_objects=[])
+                    st_folium(m2, use_container_width=True, height=700, returned_objects=[])
                 else:
                     st.info("Environment data needed to plot map.")
 
@@ -334,7 +372,7 @@ def main():
                                 if loc in loc_coords:
                                     folium.Marker(loc_coords[loc], popup=f"{i+1}. {loc}").add_to(m3)
                             m3.fit_bounds(trajectory_points)
-                            st_folium(m3, width=800, height=400, returned_objects=[])
+                            st_folium(m3, use_container_width=True, height=700, returned_objects=[])
                         else:
                             st.info("No valid locations mapped.")
                     else:
@@ -518,7 +556,7 @@ def main():
                             all_points.extend(poly)
                 if all_points:
                     m_env.fit_bounds(all_points)
-                st_folium(m_env, width=1000, height=600, returned_objects=[])
+                st_folium(m_env, use_container_width=True, height=700, returned_objects=[])
             else:
                 st.info("Environment data is not available.")
 
