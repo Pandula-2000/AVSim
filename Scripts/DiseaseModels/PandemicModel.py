@@ -251,6 +251,7 @@ def bus_exposed_detector(Agents, Environment, printer_object, max_risk):
     for agent in Agents:
         if agent.get_disease_state() == 1:
             p = agent.transport_infection_probability_AirBorne * (1 - np.exp(-0.6 * transmitting_agents))
+            p = min(p, max_risk)
             randomNum = np.random.random()
             if randomNum <= p:
                 agent.set_disease_state(Environment, 2)

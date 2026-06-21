@@ -1,3 +1,4 @@
+import sys
 import os
 import time
 import yaml
@@ -76,7 +77,8 @@ def main():
     current_time = now.strftime("%H:%M:%S")
 
     # Load configuration
-    config = load_config()
+    config_file = sys.argv[1] if len(sys.argv) > 1 else "config.yaml"
+    config = load_config(config_file)
     
     sim_days = config['simulation_days']
     bus_max_risk = config['bus_max_risk']

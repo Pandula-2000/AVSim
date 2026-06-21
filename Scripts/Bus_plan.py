@@ -41,7 +41,8 @@ class Bus:
                  end_city,
                  environment_object,
                  velocity: int,
-                 sched_time=20):
+                 sched_time=20,
+                 capacity=50):
 
             self.init_time = init_time
             self.end_time = None
@@ -52,6 +53,7 @@ class Bus:
 
             self.velocity = velocity
             self.waiting_time = sched_time
+            self.capacity = capacity
             self.in_motion = False
             self.current_location = None
             self.previous_location = None
@@ -322,14 +324,15 @@ class Bus:
 
 def availableBus(bus_list: list, agent: Agents):
     """
-    Check if the agent's next zone is in the bus's next locations.
+    Check if the agent's next zone is in the bus's next locations and bus has capacity.
     :param bus_list : List of bus objects at the bus stop.
     :param agent    : Agent object.
-    :return         : Bus object if the agent's next zone is in the bus's next locations. Else, None.
+    :return         : Bus object if the agent's next zone is in the bus's next locations and under capacity. Else, None.
     """
     for bus in bus_list:
         if (agent.get_next_location() in bus.get_next_locations()) and (bus.get_current_location() is not None):
-            return bus
+            if len(bus.get_agents()) < bus.capacity:
+                return bus
     return None
 
 

@@ -19,6 +19,17 @@ st.set_page_config(page_title="AVSim", layout="wide", initial_sidebar_state="exp
 # in the modebar. We are explicitly enabling it in the config dictionaries below. 
 # We are also providing st.download_button() for the raw CSV data per the user's request.
 
+def apply_black_text(fig):
+    fig.update_layout(
+        font=dict(color="black"),
+        title_font=dict(color="black"),
+        legend_font=dict(color="black"),
+        legend_title_font=dict(color="black")
+    )
+    fig.update_xaxes(title_font=dict(color="black"), tickfont=dict(color="black"))
+    fig.update_yaxes(title_font=dict(color="black"), tickfont=dict(color="black"))
+    return fig
+
 @st.cache_data
 def load_data(sim_dir):
     data = {}
@@ -134,7 +145,7 @@ def get_centroid(points):
 
 def main():
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Dashboard"])
+    page = st.sidebar.radio("Go to", ["Home", "Dashboard", "Compare"])
     
     if page == "Home":
         st.title("🏠 Welcome to AVSim")
@@ -150,6 +161,91 @@ def main():
 
 To get started, select **Dashboard** from the sidebar on the left!
         """)
+        return
+
+    if page == "Compare":
+        st.title("📈 Compare Simulations")
+        
+        st.sidebar.header("Data Selection")
+        results_base = "../Results"
+        
+        if not os.path.exists(results_base):
+            st.error(f"Cannot find Results directory at {os.path.abspath(results_base)}. Run this script from the Scripts folder.")
+            return
+            
+        sim_dirs = [d for d in os.listdir(results_base) if os.path.isdir(os.path.join(results_base, d))]
+        sim_dirs.sort(reverse=True)
+        
+        if not sim_dirs:
+            st.warning("No simulation directories found.")
+            return
+            
+        selected_sims = st.sidebar.multiselect("Select Simulations to Compare", sim_dirs)
+        
+        if selected_sims:
+            tab1, = st.tabs(["📊 Infected Agents vs Days"])
+            
+            with tab1:
+                st.header("Infected Agents vs Days")
+                
+                st.subheader("Plot Customization")
+                col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+                with col_f1:
+                    title_size = st.slider("Title Size", min_value=10, max_value=50, value=24)
+                with col_f2:
+                    axis_title_size = st.slider("Axis Label Size", min_value=8, max_value=40, value=18)
+                with col_f3:
+                    tick_size = st.slider("Tick Label Size", min_value=8, max_value=40, value=14)
+                with col_f4:
+                    legend_size = st.slider("Legend Size", min_value=8, max_value=40, value=16)
+                    
+                st.subheader("Trace Customization")
+                
+                trace_configs = {}
+                cols = st.columns(min(len(selected_sims), 4) if selected_sims else 1)
+                hex_colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']
+                
+                for i, sim in enumerate(selected_sims):
+                    with cols[i % len(cols)]:
+                        default_hex = hex_colors[i % len(hex_colors)]
+                        trace_name = st.text_input(f"Name for {sim}", value=sim, key=f"name_{sim}")
+                        trace_color = st.color_picker(f"Color for {sim}", value=default_hex, key=f"color_{sim}")
+                        trace_configs[sim] = {"name": trace_name, "color": trace_color}
+                        
+                fig = go.Figure()
+                
+                for sim in selected_sims:
+                    data = load_data(os.path.join(results_base, sim))
+                    if data['state_counts'] is not None:
+                        df_sc = data['state_counts'].copy()
+                        df_sc['Infected'] = df_sc[['State_3', 'State_4', 'State_5', 'State_6', 'State_7']].sum(axis=1)
+                        
+                        fig.add_trace(go.Scatter(
+                            x=df_sc['Day'],
+                            y=df_sc['Infected'],
+                            mode='lines',
+                            name=trace_configs[sim]['name'],
+                            line=dict(color=trace_configs[sim]['color'])
+                        ))
+                
+                fig.update_layout(
+                    title=dict(text="Infected Agents vs Days", font=dict(size=title_size)),
+                    xaxis=dict(title="Days", title_font=dict(size=axis_title_size), tickfont=dict(size=tick_size)),
+                    yaxis=dict(title="Number of Infected Agents", title_font=dict(size=axis_title_size), tickfont=dict(size=tick_size)),
+                    legend=dict(font=dict(size=legend_size)),
+                    hovermode="x unified"
+                )
+                
+                st.plotly_chart(apply_black_text(fig), use_container_width=True, config={
+                    'displayModeBar': True,
+                    'toImageButtonOptions': {
+                        'format': 'png',
+                        'filename': 'compare_infections.png',
+                        'scale': 4
+                    }
+                })
+        else:
+            st.info("Please select at least one simulation from the sidebar to compare.")
         return
 
     st.title("🦠 AVSim Dashboard")
@@ -194,7 +290,7 @@ To get started, select **Dashboard** from the sidebar on the left!
                                title="Epidemic Curve (SEIR)", 
                                color_discrete_map={"Susceptible": "#1f77b4", "Exposed": "#ff7f0e", "Infected": "#d62728", "Recovered": "#2ca02c", "Dead": "#000000"})
                 fig1.update_layout(hovermode="x unified")
-                st.plotly_chart(fig1, use_container_width=True, config={'displayModeBar': True, 'toImageButtonOptions': {'filename': 'epidemic_curve.png'}})
+                st.plotly_chart(apply_black_text(fig1), use_container_width=True, config={'displayModeBar': True, 'toImageButtonOptions': {'filename': 'epidemic_curve.png'}})
                 
                 with st.expander("⬇️ Download SEIR Data"):
                     st.download_button("Download CSV", df_sc.to_csv(index=False), "seir_data.csv", "text/csv")
@@ -207,7 +303,7 @@ To get started, select **Dashboard** from the sidebar on the left!
                     
                 ib_melt = df_ib.melt(id_vars='Day', var_name='Profession', value_name='Infections')
                 fig2 = px.bar(ib_melt, x='Day', y='Infections', color='Profession', title="Infections by Class/Profession over Time")
-                st.plotly_chart(fig2, use_container_width=True, config={'displayModeBar': True, 'toImageButtonOptions': {'filename': 'infections_by_class.png'}})
+                st.plotly_chart(apply_black_text(fig2), use_container_width=True, config={'displayModeBar': True, 'toImageButtonOptions': {'filename': 'infections_by_class.png'}})
                 
                 with st.expander("⬇️ Download Demographics Data"):
                     st.download_button("Download CSV", df_ib.to_csv(index=False), "infected_by_class.csv", "text/csv")
@@ -223,18 +319,19 @@ To get started, select **Dashboard** from the sidebar on the left!
                     if 'Time' in df_c.columns:
                         df_c['Hour'] = (df_c['Time'] // 60) % 24
                         fig3 = px.histogram(df_c, x='Hour', nbins=24, title="Contact Volume by Hour of Day", color_discrete_sequence=['#835AF1'])
-                        st.plotly_chart(fig3, use_container_width=True, config={'displayModeBar': True})
+                        st.plotly_chart(apply_black_text(fig3), use_container_width=True, config={'displayModeBar': True})
                 
                 with col2:
                     if 'Location' in df_c.columns:
-                        # Use a Ring chart (Donut) as requested
-                        loc_counts = df_c['Location'].value_counts().reset_index()
-                        loc_counts.columns = ['Location', 'Contacts']
-                        top_locs = loc_counts.head(10)
+                        # Extract Location Class from specific locations
+                        df_c['LocationClass'] = df_c['Location'].astype(str).apply(lambda x: x.split('_')[0])
                         
-                        fig4 = px.pie(top_locs, values='Contacts', names='Location', title="Top 10 Hotspot Locations", hole=0.45)
+                        loc_counts = df_c['LocationClass'].value_counts().reset_index()
+                        loc_counts.columns = ['LocationClass', 'Contacts']
+                        
+                        fig4 = px.pie(loc_counts, values='Contacts', names='LocationClass', title="Contacts by Location", hole=0.45)
                         fig4.update_traces(textinfo='percent+label', textposition='inside')
-                        st.plotly_chart(fig4, use_container_width=True, config={'displayModeBar': True})
+                        st.plotly_chart(apply_black_text(fig4), use_container_width=True, config={'displayModeBar': True})
                 
                 with st.expander("⬇️ Download Raw Contacts Data"):
                     st.download_button("Download CSV", df_c.to_csv(index=False), "agent_contacts.csv", "text/csv")
@@ -289,6 +386,53 @@ To get started, select **Dashboard** from the sidebar on the left!
                 else:
                     st.info("Environment data needed to plot map.")
 
+                st.markdown("---")
+                st.subheader("Exact Location Analysis")
+                if 'Location' in df_c.columns and 'LocationClass' in df_c.columns:
+                    loc_classes = sorted(df_c['LocationClass'].dropna().unique())
+                    col3, col4 = st.columns(2)
+                    with col3:
+                        selected_class = st.selectbox("Select Location Class", loc_classes)
+                    
+                    with col4:
+                        exact_locs = sorted(df_c[df_c['LocationClass'] == selected_class]['Location'].dropna().unique())
+                        selected_exact_loc = st.selectbox("Select Exact Location", exact_locs)
+                        
+                    if selected_exact_loc:
+                        st.write(f"**Analysis for {selected_exact_loc}**")
+                        loc_df = df_c[df_c['Location'] == selected_exact_loc]
+                        
+                        st.metric("Total Contacts", len(loc_df))
+                        
+                        col5, col6 = st.columns(2)
+                        with col5:
+                            if data.get('env_df') is not None and not data['env_df'].empty:
+                                m4 = folium.Map(location=[0, 0], zoom_start=15)
+                                poly_found = False
+                                for _, row in data['env_df'].iterrows():
+                                    if str(row[0]) == selected_exact_loc and len(row) > 2:
+                                        poly = parse_polygon(row[2])
+                                        if poly:
+                                            folium.Polygon(locations=poly, color='red', fill=True, popup=selected_exact_loc).add_to(m4)
+                                            m4.fit_bounds(poly)
+                                            poly_found = True
+                                            break
+                                if poly_found:
+                                    st_folium(m4, use_container_width=True, height=400, returned_objects=[], key=f"map_{selected_exact_loc}")
+                                else:
+                                    st.info(f"No map boundary found for {selected_exact_loc}")
+                            else:
+                                st.info("Environment data needed to plot map.")
+                                
+                        with col6:
+                            if 'Time' in loc_df.columns:
+                                loc_df_plot = loc_df.copy()
+                                loc_df_plot['Hour'] = (loc_df_plot['Time'] // 60) % 24
+                                fig_hist = px.histogram(loc_df_plot, x='Hour', nbins=24, title=f"Contact Volume by Hour in {selected_exact_loc}")
+                                st.plotly_chart(apply_black_text(fig_hist), use_container_width=True)
+                            else:
+                                st.dataframe(loc_df.head(100))
+
             else:
                 st.info("No contact data available in this run. (Agent_contacts.xlsx is empty or missing)")
 
@@ -309,7 +453,7 @@ To get started, select **Dashboard** from the sidebar on the left!
                                       color_continuous_scale='Reds', size_max=15)
                     fig5.update_traces(marker=dict(size=12))
                     fig5.update_yaxes(tickvals=list(range(1, 10)))
-                    st.plotly_chart(fig5, use_container_width=True, config={'displayModeBar': True})
+                    st.plotly_chart(apply_black_text(fig5), use_container_width=True, config={'displayModeBar': True})
                 
                 # Retrieve Gantt Schedule
                 agent_schedules = get_agent_schedules_all_days(data['time_tables_path'], target_agent)
@@ -348,7 +492,7 @@ To get started, select **Dashboard** from the sidebar on the left!
                         height=250,
                         showlegend=True
                     )
-                    st.plotly_chart(fig_gantt, use_container_width=True, config={'displayModeBar': True})
+                    st.plotly_chart(apply_black_text(fig_gantt), use_container_width=True, config={'displayModeBar': True})
                     
                     st.markdown("---")
                     st.subheader(f"Trajectory Map: {target_agent} (Day {selected_day})")

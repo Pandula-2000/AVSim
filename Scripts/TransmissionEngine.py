@@ -45,26 +45,25 @@ def STEP_DISEASE_PROPAGATION(agents,
 
         # 2. Get contacts at each location.
         for Location in list(env.get_all_nodes()):
-            agents = env.get_agents(Location)
-            location_exposed_detector(agents,
+            agents_loc = env.get_agents(Location)
+            location_exposed_detector(agents_loc,
                                       env,
                                       printer_object ,
                                       Location,
                                       state_timer_dict,
                                       location_transmission_risk,
                                       radius_of_infection)
-        # 3. Get contacts in buses.
-        if use_transport:
-            for bus in buses:
-                agents_in_bus = bus.get_agents()
-                # 3.1 Only check if there are more than one agent in bus.
-                if len(agents_in_bus) > 1:
-                    bus_exposed_detector(agents_in_bus,
-                                         env,
-                                         printer_object,
-                                         bus_max_risk)
-    else:
-        return None
+
+    # 3. Get contacts in buses.
+    if use_transport and time % 20 == 0:
+        for bus in buses:
+            agents_in_bus = bus.get_agents()
+            # 3.1 Only check if there are more than one agent in bus.
+            if len(agents_in_bus) > 1:
+                bus_exposed_detector(agents_in_bus,
+                                     env,
+                                     printer_object,
+                                     bus_max_risk)
 
 
 def UpdateAgentDiseaseState(agents, env, frequency):
