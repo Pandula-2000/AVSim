@@ -4,7 +4,7 @@
 [![Status](https://img.shields.io/badge/Status-Under_Review-yellow)](https://ieeexplore.ieee.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> **Note:** This paper is currently under review at *IEEE Transactions on Systems, Man, and Cybernetics: Systems*.
+> **Note:** This paper is currently under review at *Elsevier Sustainable Cities and Society*.
 
 ## 📖 Overview
 **AVSim** is a novel Agent-Based Modeling (ABM) framework designed to simulate the spread of **airborne** (e.g., COVID-19) and **vector-borne** (e.g., Dengue) diseases under realistic conditions. 
